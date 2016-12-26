@@ -1,0 +1,228 @@
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\EngDB.sdf
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\PhoneApp7.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\PhoneApp7.pdb
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\resources.pri
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\AppxManifest.xml
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\BeHocTiengAnh.build.appxrecipe
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\AppManifest.xaml
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\PhoneApp7_Debug_AnyCPU.xap
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\BeHocTiengAnh.csprojResolveAssemblyReference.cache
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\App.g.cs
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\FirstPage.g.cs
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\Introduction.g.cs
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\IntroStudy.g.cs
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\MainPage.g.cs
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\MenuPage.g.cs
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\ResultEx.g.cs
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\Study1.g.cs
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\Study2.g.cs
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\Study3.g.cs
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\VocaCompleled.g.cs
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\PhoneApp7.g.resources
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\PhoneApp7.Resources.AppResources.resources
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\BeHocTiengAnh.csproj.GenerateResource.Cache
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\PhoneApp7.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\PhoneApp7.pdb
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\priconfig.xml
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\priconfig.xml.intermediate
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\layout.resfiles
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\layout.resfiles.intermediate
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\resources.resfiles
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\resources.resfiles.intermediate
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\pri.resfiles
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\pri.resfiles.intermediate
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\qualifiers.txt
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\ProjectArchitectures.txt
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\MDILProjectFiles.xml
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\XapCacheFile.xml
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\About.g.cs
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\RateMyApp.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\ar-SA\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\de-DE\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\en-GB\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\en-US\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\es-ES\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\fi-FI\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\fr-FR\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\he-IL\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\hr-HR\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\hu-HU\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\it-IT\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\lt-LT\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\nb-NO\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\nl-NL\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\pl-PL\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\pt-BR\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\pt-PT\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\ro-RO\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\ru-RU\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\sl-SI\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\sv-SE\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\uk-UA\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\vi-VN\RateMyApp.resources.dll
+C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\zh-CN\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\EngDB.sdf
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\PhoneApp7.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\PhoneApp7.pdb
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\resources.pri
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\AppxManifest.xml
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\BeHocTiengAnh.build.appxrecipe
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\AppManifest.xaml
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\PhoneApp7_Debug_AnyCPU.xap
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\RateMyApp.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\ar-SA\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\de-DE\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\en-GB\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\en-US\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\es-ES\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\fi-FI\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\fr-FR\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\he-IL\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\hr-HR\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\hu-HU\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\it-IT\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\lt-LT\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\nb-NO\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\nl-NL\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\pl-PL\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\pt-BR\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\pt-PT\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\ro-RO\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\ru-RU\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\sl-SI\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\sv-SE\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\uk-UA\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\vi-VN\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\zh-CN\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\BeHocTiengAnh.csprojResolveAssemblyReference.cache
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\App.g.cs
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\About.g.cs
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\FirstPage.g.cs
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\Introduction.g.cs
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\IntroStudy.g.cs
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\MainPage.g.cs
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\MenuPage.g.cs
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\ResultEx.g.cs
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\Study1.g.cs
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\Study2.g.cs
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\Study3.g.cs
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\VocaCompleled.g.cs
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\PhoneApp7.g.resources
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\PhoneApp7.Resources.AppResources.resources
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\BeHocTiengAnh.csproj.GenerateResource.Cache
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\PhoneApp7.dll
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\PhoneApp7.pdb
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\priconfig.xml
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\priconfig.xml.intermediate
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\layout.resfiles
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\layout.resfiles.intermediate
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\resources.resfiles
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\resources.resfiles.intermediate
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\pri.resfiles
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\pri.resfiles.intermediate
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\qualifiers.txt
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\ProjectArchitectures.txt
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\MDILProjectFiles.xml
+C:\Users\Thang Huynh\Downloads\Do an mon hoc chuyen nganh (1)\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\XapCacheFile.xml
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\EngDB.sdf
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\PhoneApp7.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\PhoneApp7.pdb
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\resources.pri
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\AppxManifest.xml
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\BeHocTiengAnh.build.appxrecipe
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\AppManifest.xaml
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\PhoneApp7_Debug_AnyCPU.xap
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\RateMyApp.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\ar-SA\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\de-DE\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\en-GB\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\en-US\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\es-ES\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\fi-FI\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\fr-FR\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\he-IL\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\hr-HR\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\hu-HU\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\it-IT\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\lt-LT\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\nb-NO\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\nl-NL\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\pl-PL\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\pt-BR\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\pt-PT\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\ro-RO\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\ru-RU\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\sl-SI\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\sv-SE\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\uk-UA\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\vi-VN\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\Bin\Debug\zh-CN\RateMyApp.resources.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\BeHocTiengAnh.csprojResolveAssemblyReference.cache
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\App.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\About.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\FirstPage.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\Introduction.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\IntroStudy.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\MainPage.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\MenuPage.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\ResultEx.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\Study1.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\Study2.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\Study3.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\VocaCompleled.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\PhoneApp7.g.resources
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\PhoneApp7.Resources.AppResources.resources
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\BeHocTiengAnh.csproj.GenerateResource.Cache
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\PhoneApp7.dll
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\PhoneApp7.pdb
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\priconfig.xml
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\priconfig.xml.intermediate
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\layout.resfiles
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\layout.resfiles.intermediate
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\resources.resfiles
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\resources.resfiles.intermediate
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\pri.resfiles
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\pri.resfiles.intermediate
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\qualifiers.txt
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\ProjectArchitectures.txt
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\MDILProjectFiles.xml
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\XapCacheFile.xml
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\Details.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\MainGame.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\Topic.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\WordGame.g.cs
+C:\Users\Thang Huynh\Downloads\Mobile\New folder (2)\PhoneApp7\PhoneApp7\obj\Debug\WordGameHome.g.cs

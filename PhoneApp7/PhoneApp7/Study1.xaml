@@ -1,0 +1,89 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp7.Study1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Margin="0" Grid.RowSpan="2" Background="#FFE0E0DB">
+            <Grid HorizontalAlignment="Left" Height="450" Margin="10,110,0,0" VerticalAlignment="Top" Width="460" Background="#FFFBFBFB">
+                <RadioButton x:Name="RB4" Content="" HorizontalAlignment="Left" Margin="50,315,0,0" VerticalAlignment="Top" Width="410" Height="88" BorderBrush="Black" Foreground="#FF28870A" FontFamily="Comic Sans MS" FontStyle="Italic" FontSize="30" Background="#FF46B432"/>
+                <RadioButton x:Name="RB3" Content="" HorizontalAlignment="Left" Margin="50,227,0,0" VerticalAlignment="Top" Width="410" Height="88" BorderBrush="Black" Foreground="#FF28870A" FontFamily="Comic Sans MS" FontStyle="Italic" FontSize="30" Background="#FF0AB432"/>
+                <RadioButton x:Name="RB2" Content="" HorizontalAlignment="Left" Margin="50,139,0,0" VerticalAlignment="Top" Width="410" Height="88" BorderBrush="Black" Foreground="#FF28870A" FontFamily="Comic Sans MS" FontStyle="Italic" FontSize="30" Background="#FF46B432"/>
+                <RadioButton x:Name="RB1" Content="" HorizontalAlignment="Left" Margin="50,46,0,0" VerticalAlignment="Top" Width="410" Height="88" BorderBrush="Black" Foreground="#FF28870A" FontFamily="Comic Sans MS" FontStyle="Italic" FontSize="30" Background="#FF46B432"/>
+                <Image x:Name="imgsp1" Source="/Resources/All/speaker.png" Margin="10,71,0,335" RenderTransformOrigin="0.558,0.12" Tap="imgsp1_Tap" Width="40" HorizontalAlignment="Left"/>
+                <Image x:Name="imgsp2" Source="/Resources/All/speaker.png" Margin="8,163,0,247" RenderTransformOrigin="0.558,0.12" Tap="imgsp2_Tap" Width="40" Height="40" HorizontalAlignment="Left"/>
+                <Image x:Name="imgsp3" Source="/Resources/All/speaker.png" Margin="8,253,0,155" RenderTransformOrigin="0.558,0.12" Tap="imgsp3_Tap" Width="40" HorizontalAlignment="Left"/>
+                <Image x:Name="imgsp4" Source="/Resources/All/speaker.png" Margin="10,340,0,70" RenderTransformOrigin="0.558,0.12" Tap="imgsp4_Tap" Width="40" Height="40" HorizontalAlignment="Left"/>
+            </Grid>
+            <Ellipse x:Name="ElsMedia" HorizontalAlignment="Left" Height="100" Margin="0,36,0,0" Stroke="#FF323232" VerticalAlignment="Top" Width="100" Tap="ElsMedia_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush Stretch="Fill" ImageSource="/Resources/loa.png"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Button x:Name="Btn_Kq" Content="Kết Quả" Margin="150,588,126,0" VerticalAlignment="Top" Width="204" Height="100" Background="#FF509517" FontFamily="Comic Sans MS" FontSize="36" FontStyle="Italic" Click="Btn_Kq_Click"/>
+            <MediaElement x:Name="MediaStudy1" HorizontalAlignment="Left" Height="100" Margin="232,62,0,0" VerticalAlignment="Top" Width="100" Visibility="Collapsed"/>
+            <Image HorizontalAlignment="Left" Height="126" Margin="310,0,0,0" VerticalAlignment="Top" Width="160" Source="/Resources/All/meo1.png"/>
+            <Image HorizontalAlignment="Left" Height="138" Margin="-9,630,0,0" VerticalAlignment="Top" Width="184" Source="/Resources/All/logo.png"/>
+        </Grid>
+        <Grid x:Name="GrIntroBT" Margin="0" Grid.RowSpan="2" Background="White" Tap="GrIntroBT_Tap">
+            <Image HorizontalAlignment="Left" Height="158" Margin="30,572,0,0" VerticalAlignment="Top" Width="420" Source="/Resources/All/muiten.PNG" Stretch="Fill"/>
+            <Image HorizontalAlignment="Left" Height="200" Margin="0,490,0,0" VerticalAlignment="Top" Width="202" Source="/Resources/All/Doraemon.png"/>
+            <TextBlock HorizontalAlignment="Left" Margin="207,614,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="56" FontFamily="Comic Sans MS" FontSize="38" RenderTransformOrigin="0.554,-0.2" Text="Bắt đầu"/>
+            <TextBlock x:Name="tbLesson" HorizontalAlignment="Left" Margin="62,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="261" FontFamily="Comic Sans MS" Foreground="Black" FontSize="28"/>
+            <TextBlock HorizontalAlignment="Left" Margin="124,212,0,0" TextWrapping="Wrap" Text="Bài tập 1" VerticalAlignment="Top" Width="261" Height="71" FontFamily="Comic Sans MS" Foreground="#FF004F04" FontSize="48" FontWeight="Bold"/>
+        </Grid>
+        <Grid x:Name="GridTrue" Margin="78,178,88,251" Grid.RowSpan="2" Visibility="Collapsed">
+            <Image HorizontalAlignment="Left" Height="238" Margin="56,0,0,0" VerticalAlignment="Top" Width="242" Source="/Resources/All/True.png"/>
+            <TextBlock HorizontalAlignment="Left" Margin="56,238,0,0" TextWrapping="Wrap" Text="Exactly" VerticalAlignment="Top" Height="91" Width="234" FontFamily="Comic Sans MS" FontStyle="Italic" FontSize="62" Foreground="#FF168F03" FontWeight="Bold"/>
+        </Grid>
+        <Grid x:Name="GridFalse" Margin="0,197,68,251" Grid.RowSpan="2" HorizontalAlignment="Right" Width="354" Visibility="Collapsed">
+            <Image HorizontalAlignment="Left" Height="238" Margin="70,0,0,0" VerticalAlignment="Top" Width="242" Source="/Resources/All/false.png"/>
+            <TextBlock HorizontalAlignment="Left" Margin="70,239,0,0" TextWrapping="Wrap" Text="Uh Oh !" VerticalAlignment="Top" Height="81" Width="248" FontFamily="Comic Sans MS" FontStyle="Italic" FontSize="62" Foreground="#FFD34323" FontWeight="Bold"/>
+        </Grid>
+        <TextBlock x:Name="tbCauhoi" HorizontalAlignment="Left" Margin="98,114,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" Height="39" FontFamily="Comic Sans MS" Foreground="#FF040404" FontSize="24" FontWeight="Bold"/>
+        <TextBlock x:Name="tbCauDung" HorizontalAlignment="Left" Margin="300,114,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Height="39" FontFamily="Comic Sans MS" Foreground="#FF040404" FontSize="24" FontWeight="Bold"/>
+
+        <!--TitlePanel contains the name of the application and page title-->
+
+        <!--ContentPanel - place additional content here-->
+    </Grid>
+
+    <!-- Hiệu ứng chuyển page-->
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:SlideTransition Mode="SlideRightFadeIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:SlideTransition Mode="SlideLeftFadeIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:SlideTransition Mode="SlideRightFadeOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:SlideTransition Mode="SlideLeftFadeOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+
+</phone:PhoneApplicationPage>

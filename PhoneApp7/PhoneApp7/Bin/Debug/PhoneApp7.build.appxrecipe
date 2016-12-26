@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LINH</Machine>
+    <WindowsUser>Linh</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>bd4349dc-81fa-43d2-90a7-404b672f3952</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\PhoneApp7.dll">
+      <PackagePath>PhoneApp7.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v7.0\Toolkit\Nov10\Bin\Microsoft.Phone.Controls.Toolkit.dll">
+      <PackagePath>Microsoft.Phone.Controls.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v7.0\Toolkit\Nov10\Bin\Microsoft.Phone.Controls.Toolkit.xml">
+      <PackagePath>Microsoft.Phone.Controls.Toolkit.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\logo.png">
+      <PackagePath>Resources\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Menu\banghe.png">
+      <PackagePath>Resources\Menu\banghe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Menu\banghec.png">
+      <PackagePath>Resources\Menu\banghec.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Menu\giuong.png">
+      <PackagePath>Resources\Menu\giuong.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Menu\giuongc.png">
+      <PackagePath>Resources\Menu\giuongc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Square150x150Logo.scale-140.png">
+      <PackagePath>Square150x150Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Square44x44Logo.scale-240.png">
+      <PackagePath>Square44x44Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Square71x71Logo.scale-140.png">
+      <PackagePath>Square71x71Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\but.png">
+      <PackagePath>Resources\All\but.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\child-failed.png">
+      <PackagePath>Resources\All\child-failed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\Doraemon.png">
+      <PackagePath>Resources\All\Doraemon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\false.png">
+      <PackagePath>Resources\All\false.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\logo.png">
+      <PackagePath>Resources\All\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\meo1.png">
+      <PackagePath>Resources\All\meo1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\muiten.PNG">
+      <PackagePath>Resources\All\muiten.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\repeat.png">
+      <PackagePath>Resources\All\repeat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\speaker.png">
+      <PackagePath>Resources\All\speaker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\True.png">
+      <PackagePath>Resources\All\True.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\Completed.png">
+      <PackagePath>Resources\All\Completed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\loa.png">
+      <PackagePath>Resources\loa.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Menu\people.png">
+      <PackagePath>Resources\Menu\people.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Menu\school.png">
+      <PackagePath>Resources\Menu\school.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Menu\schoolc.png">
+      <PackagePath>Resources\Menu\schoolc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\ABC.mp3">
+      <PackagePath>Resources\All\ABC.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\baitap1.mp3">
+      <PackagePath>Resources\All\baitap1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\abed.mp3">
+      <PackagePath>Resources\Sound\abed.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\ablanket.mp3">
+      <PackagePath>Resources\Sound\ablanket.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\achair.mp3">
+      <PackagePath>Resources\Sound\achair.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\adesk.mp3">
+      <PackagePath>Resources\Sound\adesk.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\afriend.mp3">
+      <PackagePath>Resources\Sound\afriend.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\afternoon.mp3">
+      <PackagePath>Resources\Sound\afternoon.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\apillow.mp3">
+      <PackagePath>Resources\Sound\apillow.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\astudent.mp3">
+      <PackagePath>Resources\Sound\astudent.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\atable.mp3">
+      <PackagePath>Resources\Sound\atable.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\ateacher.mp3">
+      <PackagePath>Resources\Sound\ateacher.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\banbe.mp3">
+      <PackagePath>Resources\Sound\banbe.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\beds.mp3">
+      <PackagePath>Resources\Sound\beds.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\blankets.mp3">
+      <PackagePath>Resources\Sound\blankets.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\buoichieu.mp3">
+      <PackagePath>Resources\Sound\buoichieu.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\buoichieutoi.mp3">
+      <PackagePath>Resources\Sound\buoichieutoi.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\buoisang.mp3">
+      <PackagePath>Resources\Sound\buoisang.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\buoitoi.mp3">
+      <PackagePath>Resources\Sound\buoitoi.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\buoitrua.mp3">
+      <PackagePath>Resources\Sound\buoitrua.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\chairs.mp3">
+      <PackagePath>Resources\Sound\chairs.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\desks.mp3">
+      <PackagePath>Resources\Sound\desks.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\evening.mp3">
+      <PackagePath>Resources\Sound\evening.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\friends.mp3">
+      <PackagePath>Resources\Sound\friends.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\midnight.mp3">
+      <PackagePath>Resources\Sound\midnight.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\morning.mp3">
+      <PackagePath>Resources\Sound\morning.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\motcaiban.mp3">
+      <PackagePath>Resources\Sound\motcaiban.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\motcaibancongan.mp3">
+      <PackagePath>Resources\Sound\motcaibancongan.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\motcaichan.mp3">
+      <PackagePath>Resources\Sound\motcaichan.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\motcaighe.mp3">
+      <PackagePath>Resources\Sound\motcaighe.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\motcaigiuong.mp3">
+      <PackagePath>Resources\Sound\motcaigiuong.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\motcaigoi.mp3">
+      <PackagePath>Resources\Sound\motcaigoi.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\motgiaovien.mp3">
+      <PackagePath>Resources\Sound\motgiaovien.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\mothocsinh.mp3">
+      <PackagePath>Resources\Sound\mothocsinh.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaiban.mp3">
+      <PackagePath>Resources\Sound\nhieucaiban.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaibancongan.mp3">
+      <PackagePath>Resources\Sound\nhieucaibancongan.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaichan.mp3">
+      <PackagePath>Resources\Sound\nhieucaichan.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaighe.mp3">
+      <PackagePath>Resources\Sound\nhieucaighe.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaigiuong.mp3">
+      <PackagePath>Resources\Sound\nhieucaigiuong.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaigoi.mp3">
+      <PackagePath>Resources\Sound\nhieucaigoi.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\night.mp3">
+      <PackagePath>Resources\Sound\night.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\noon.mp3">
+      <PackagePath>Resources\Sound\noon.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nuadem.mp3">
+      <PackagePath>Resources\Sound\nuadem.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\pillows.mp3">
+      <PackagePath>Resources\Sound\pillows.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\students.mp3">
+      <PackagePath>Resources\Sound\students.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\tables.mp3">
+      <PackagePath>Resources\Sound\tables.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\teachers.mp3">
+      <PackagePath>Resources\Sound\teachers.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\baitap.mp3">
+      <PackagePath>Resources\All\baitap.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\bt2.mp3">
+      <PackagePath>Resources\All\bt2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\Exactly.mp3">
+      <PackagePath>Resources\All\Exactly.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\HTBT1.mp3">
+      <PackagePath>Resources\All\HTBT1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\HTBT2.mp3">
+      <PackagePath>Resources\All\HTBT2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\HTBT3.mp3">
+      <PackagePath>Resources\All\HTBT3.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\HTUnit.mp3">
+      <PackagePath>Resources\All\HTUnit.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\intro1.mp3">
+      <PackagePath>Resources\All\intro1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\intro2.mp3">
+      <PackagePath>Resources\All\intro2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\introBT3.mp3">
+      <PackagePath>Resources\All\introBT3.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\KHTBT1.mp3">
+      <PackagePath>Resources\All\KHTBT1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\KHTBT2.mp3">
+      <PackagePath>Resources\All\KHTBT2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\KHTBT3.mp3">
+      <PackagePath>Resources\All\KHTBT3.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\sorry.mp3">
+      <PackagePath>Resources\All\sorry.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\aboy.mp3">
+      <PackagePath>Resources\Sound\aboy.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\agirl.mp3">
+      <PackagePath>Resources\Sound\agirl.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\agrandfather.mp3">
+      <PackagePath>Resources\Sound\agrandfather.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\agrandmother.mp3">
+      <PackagePath>Resources\Sound\agrandmother.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\aname.mp3">
+      <PackagePath>Resources\Sound\aname.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\anh.mp3">
+      <PackagePath>Resources\Sound\anh.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\ba.mp3">
+      <PackagePath>Resources\Sound\ba.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\boys.mp3">
+      <PackagePath>Resources\Sound\boys.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\abrother.mp3">
+      <PackagePath>Resources\Sound\abrother.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\brothers.mp3">
+      <PackagePath>Resources\Sound\brothers.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\chi.mp3">
+      <PackagePath>Resources\Sound\chi.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\dad.mp3">
+      <PackagePath>Resources\Sound\dad.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\giacu.mp3">
+      <PackagePath>Resources\Sound\giacu.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\girls.mp3">
+      <PackagePath>Resources\Sound\girls.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\grandfathers.mp3">
+      <PackagePath>Resources\Sound\grandfathers.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\grandmothers.mp3">
+      <PackagePath>Resources\Sound\grandmothers.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\grandparents.mp3">
+      <PackagePath>Resources\Sound\grandparents.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\me.mp3">
+      <PackagePath>Resources\Sound\me.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\mom.mp3">
+      <PackagePath>Resources\Sound\mom.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\motcaiten.mp3">
+      <PackagePath>Resources\Sound\motcaiten.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\motcaube.mp3">
+      <PackagePath>Resources\Sound\motcaube.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\motcobe.mp3">
+      <PackagePath>Resources\Sound\motcobe.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\motnguoiba.mp3">
+      <PackagePath>Resources\Sound\motnguoiba.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\motnguoiban.mp3">
+      <PackagePath>Resources\Sound\motnguoiban.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\motnguoiong.mp3">
+      <PackagePath>Resources\Sound\motnguoiong.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\names.mp3">
+      <PackagePath>Resources\Sound\names.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieuanh.mp3">
+      <PackagePath>Resources\Sound\nhieuanh.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaiten.mp3">
+      <PackagePath>Resources\Sound\nhieucaiten.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaube.mp3">
+      <PackagePath>Resources\Sound\nhieucaube.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieuchi.mp3">
+      <PackagePath>Resources\Sound\nhieuchi.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieucobe.mp3">
+      <PackagePath>Resources\Sound\nhieucobe.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieugiaovien.mp3">
+      <PackagePath>Resources\Sound\nhieugiaovien.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieuhocsinh.mp3">
+      <PackagePath>Resources\Sound\nhieuhocsinh.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieunguoiba.mp3">
+      <PackagePath>Resources\Sound\nhieunguoiba.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\nhieunguoiong.mp3">
+      <PackagePath>Resources\Sound\nhieunguoiong.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\old.mp3">
+      <PackagePath>Resources\Sound\old.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\ongba.mp3">
+      <PackagePath>Resources\Sound\ongba.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\asister.mp3">
+      <PackagePath>Resources\Sound\asister.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Sound\sisters.mp3">
+      <PackagePath>Resources\Sound\sisters.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\abed.jpg">
+      <PackagePath>Resources\Image\abed.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\ablanket.jpg">
+      <PackagePath>Resources\Image\ablanket.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\achair.jpg">
+      <PackagePath>Resources\Image\achair.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\adesk.jpg">
+      <PackagePath>Resources\Image\adesk.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\afternoon.jpg">
+      <PackagePath>Resources\Image\afternoon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\apillow.jpg">
+      <PackagePath>Resources\Image\apillow.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\atable.jpg">
+      <PackagePath>Resources\Image\atable.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\beds.jpg">
+      <PackagePath>Resources\Image\beds.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\blankets.jpg">
+      <PackagePath>Resources\Image\blankets.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\chairs.jpg">
+      <PackagePath>Resources\Image\chairs.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\desks.jpg">
+      <PackagePath>Resources\Image\desks.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\evening.jpg">
+      <PackagePath>Resources\Image\evening.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\midnight.jpg">
+      <PackagePath>Resources\Image\midnight.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\morning.jpg">
+      <PackagePath>Resources\Image\morning.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\night.jpg">
+      <PackagePath>Resources\Image\night.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\noon.jpg">
+      <PackagePath>Resources\Image\noon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\pillows.jpg">
+      <PackagePath>Resources\Image\pillows.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\tables.jpg">
+      <PackagePath>Resources\Image\tables.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Menu\ngaydem.jpg">
+      <PackagePath>Resources\Menu\ngaydem.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Menu\ngaydemc.jpg">
+      <PackagePath>Resources\Menu\ngaydemc.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\BGIntro1.jpg">
+      <PackagePath>Resources\All\BGIntro1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\bgmenu.jpg">
+      <PackagePath>Resources\All\bgmenu.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\drmbg.jpg">
+      <PackagePath>Resources\All\drmbg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\All\minion.jpg">
+      <PackagePath>Resources\All\minion.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\aboy.jpg">
+      <PackagePath>Resources\Image\aboy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\afriend.jpg">
+      <PackagePath>Resources\Image\afriend.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\agirl.jpg">
+      <PackagePath>Resources\Image\agirl.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\astudent.jpg">
+      <PackagePath>Resources\Image\astudent.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\ateacher.jpg">
+      <PackagePath>Resources\Image\ateacher.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\boys.jpg">
+      <PackagePath>Resources\Image\boys.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\abrother.jpg">
+      <PackagePath>Resources\Image\abrother.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\brothers.jpg">
+      <PackagePath>Resources\Image\brothers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\dad.jpg">
+      <PackagePath>Resources\Image\dad.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\friends.jpg">
+      <PackagePath>Resources\Image\friends.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\old.jpg">
+      <PackagePath>Resources\Image\old.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\girls.jpg">
+      <PackagePath>Resources\Image\girls.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\mom.jpg">
+      <PackagePath>Resources\Image\mom.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\agrandmother.jpg">
+      <PackagePath>Resources\Image\agrandmother.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\agrandfather.jpg">
+      <PackagePath>Resources\Image\agrandfather.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\aname.jpg">
+      <PackagePath>Resources\Image\aname.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\names.jpg">
+      <PackagePath>Resources\Image\names.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\grandmothers.jpg">
+      <PackagePath>Resources\Image\grandmothers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\grandfathers.jpg">
+      <PackagePath>Resources\Image\grandfathers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\grandparent.jpg">
+      <PackagePath>Resources\Image\grandparent.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\asister.jpg">
+      <PackagePath>Resources\Image\asister.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\sisters.jpg">
+      <PackagePath>Resources\Image\sisters.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\students.jpg">
+      <PackagePath>Resources\Image\students.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Image\teachers.jpg">
+      <PackagePath>Resources\Image\teachers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Menu\family.jpg">
+      <PackagePath>Resources\Menu\family.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Menu\familyc.jpg">
+      <PackagePath>Resources\Menu\familyc.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Menu\grandparent.jpg">
+      <PackagePath>Resources\Menu\grandparent.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Menu\grandparentc.jpg">
+      <PackagePath>Resources\Menu\grandparentc.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Resources\Menu\peoplec.jpg">
+      <PackagePath>Resources\Menu\peoplec.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Linh\Documents\Visual Studio 2013\Projects\PhoneApp7\PhoneApp7\Bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

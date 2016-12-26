@@ -1,0 +1,62 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp7.VocaCompleled"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Margin="0" Grid.RowSpan="2" Background="White">
+            <Image HorizontalAlignment="Left" Height="294" Margin="94,156,0,0" VerticalAlignment="Top" Width="310" Source="/Resources/All/Completed.png"/>
+            <TextBlock HorizontalAlignment="Left" Margin="70,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="77" Width="374" Foreground="#FF49AC3A" FontFamily="Comic Sans MS" FontSize="48" Text="Chúc mừng em !" FontWeight="Bold"/>
+            <MediaElement x:Name="Media" HorizontalAlignment="Left" Height="100" Margin="94,579,0,0" VerticalAlignment="Top" Width="100" Visibility="Collapsed"/>
+            <Grid Height="127" Margin="28,552,36,0" VerticalAlignment="Top" Tap="Grid_Tap">
+                <Grid.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/Resources/All/muiten.PNG"/>
+                </Grid.Background>
+                <TextBlock x:Name="tbLesson" HorizontalAlignment="Left" Margin="100,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="288" Height="47" FontFamily="Comic Sans MS" FontSize="36"/>
+                <Image HorizontalAlignment="Left" Height="73" Margin="10,22,0,0" VerticalAlignment="Top" Width="85" Source="/Resources/All/but.png" RenderTransformOrigin="0.518,0.767"/>
+            </Grid>
+        </Grid>
+
+        <!--TitlePanel contains the name of the application and page title-->
+
+        <!--ContentPanel - place additional content here-->
+    </Grid>
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:SlideTransition Mode="SlideRightFadeIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:SlideTransition Mode="SlideLeftFadeIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:SlideTransition Mode="SlideRightFadeOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:SlideTransition Mode="SlideLeftFadeOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,2156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-RP16M13</Machine>
+    <WindowsUser>Thang Huynh</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>bd4349dc-81fa-43d2-90a7-404b672f3952</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Bin\Debug\PhoneApp7.dll">
+      <PackagePath>PhoneApp7.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll">
+      <PackagePath>Microsoft.Phone.Controls.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\RateMyApp.dll">
+      <PackagePath>RateMyApp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\ar-SA\RateMyApp.resources.dll">
+      <PackagePath>ar-SA\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\de-DE\RateMyApp.resources.dll">
+      <PackagePath>de-DE\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\en-GB\RateMyApp.resources.dll">
+      <PackagePath>en-GB\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\en-US\RateMyApp.resources.dll">
+      <PackagePath>en-US\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\es-ES\RateMyApp.resources.dll">
+      <PackagePath>es-ES\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\fi-FI\RateMyApp.resources.dll">
+      <PackagePath>fi-FI\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\fr-FR\RateMyApp.resources.dll">
+      <PackagePath>fr-FR\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\he-IL\RateMyApp.resources.dll">
+      <PackagePath>he-IL\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\hr-HR\RateMyApp.resources.dll">
+      <PackagePath>hr-HR\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\hu-HU\RateMyApp.resources.dll">
+      <PackagePath>hu-HU\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\it-IT\RateMyApp.resources.dll">
+      <PackagePath>it-IT\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\lt-LT\RateMyApp.resources.dll">
+      <PackagePath>lt-LT\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\nb-NO\RateMyApp.resources.dll">
+      <PackagePath>nb-NO\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\nl-NL\RateMyApp.resources.dll">
+      <PackagePath>nl-NL\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\pl-PL\RateMyApp.resources.dll">
+      <PackagePath>pl-PL\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\pt-BR\RateMyApp.resources.dll">
+      <PackagePath>pt-BR\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\pt-PT\RateMyApp.resources.dll">
+      <PackagePath>pt-PT\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\ro-RO\RateMyApp.resources.dll">
+      <PackagePath>ro-RO\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\ru-RU\RateMyApp.resources.dll">
+      <PackagePath>ru-RU\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\sl-SI\RateMyApp.resources.dll">
+      <PackagePath>sl-SI\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\sv-SE\RateMyApp.resources.dll">
+      <PackagePath>sv-SE\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\uk-UA\RateMyApp.resources.dll">
+      <PackagePath>uk-UA\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\vi-VN\RateMyApp.resources.dll">
+      <PackagePath>vi-VN\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\packages\RateMyApp.1.1.0\lib\sl4-wp71\zh-CN\RateMyApp.resources.dll">
+      <PackagePath>zh-CN\RateMyApp.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml">
+      <PackagePath>Microsoft.Phone.Controls.Toolkit.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\ABCD.mp4">
+      <PackagePath>Assets\ABCD.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\question.png">
+      <PackagePath>Assets\question.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\sound.png">
+      <PackagePath>Assets\sound.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\tick.png">
+      <PackagePath>Assets\tick.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\123.png">
+      <PackagePath>Resources\123.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\alpha.png">
+      <PackagePath>Resources\alpha.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\alphabet.png">
+      <PackagePath>Resources\alphabet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\A.png">
+      <PackagePath>Resources\Alphabets\A.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\B.png">
+      <PackagePath>Resources\Alphabets\B.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\C.png">
+      <PackagePath>Resources\Alphabets\C.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\D.png">
+      <PackagePath>Resources\Alphabets\D.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\E.png">
+      <PackagePath>Resources\Alphabets\E.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\F.png">
+      <PackagePath>Resources\Alphabets\F.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\G.png">
+      <PackagePath>Resources\Alphabets\G.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\H.png">
+      <PackagePath>Resources\Alphabets\H.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\I.png">
+      <PackagePath>Resources\Alphabets\I.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\J.png">
+      <PackagePath>Resources\Alphabets\J.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\K.png">
+      <PackagePath>Resources\Alphabets\K.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\L.png">
+      <PackagePath>Resources\Alphabets\L.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\M.png">
+      <PackagePath>Resources\Alphabets\M.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\N.png">
+      <PackagePath>Resources\Alphabets\N.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\O.png">
+      <PackagePath>Resources\Alphabets\O.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\P.png">
+      <PackagePath>Resources\Alphabets\P.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\Q.png">
+      <PackagePath>Resources\Alphabets\Q.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\R.png">
+      <PackagePath>Resources\Alphabets\R.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\S.png">
+      <PackagePath>Resources\Alphabets\S.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\T.png">
+      <PackagePath>Resources\Alphabets\T.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\U.png">
+      <PackagePath>Resources\Alphabets\U.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\V.png">
+      <PackagePath>Resources\Alphabets\V.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\W.png">
+      <PackagePath>Resources\Alphabets\W.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\X.png">
+      <PackagePath>Resources\Alphabets\X.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\Y.png">
+      <PackagePath>Resources\Alphabets\Y.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Alphabets\Z.png">
+      <PackagePath>Resources\Alphabets\Z.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\animal.png">
+      <PackagePath>Resources\animal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\basket-of-vegetables.png">
+      <PackagePath>Resources\basket-of-vegetables.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\clothes1.png">
+      <PackagePath>Resources\clothes1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\clothing.png">
+      <PackagePath>Resources\clothing.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\color.png">
+      <PackagePath>Resources\color.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\color1.png">
+      <PackagePath>Resources\color1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\Black.png">
+      <PackagePath>Resources\Color\Black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\Blue.png">
+      <PackagePath>Resources\Color\Blue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\brown.png">
+      <PackagePath>Resources\Color\brown.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\DarkBlue.png">
+      <PackagePath>Resources\Color\DarkBlue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\DarkBrown.png">
+      <PackagePath>Resources\Color\DarkBrown.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\Green.png">
+      <PackagePath>Resources\Color\Green.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\Grey.png">
+      <PackagePath>Resources\Color\Grey.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\LightBrown.png">
+      <PackagePath>Resources\Color\LightBrown.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\LightRed.png">
+      <PackagePath>Resources\Color\LightRed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\Orange.png">
+      <PackagePath>Resources\Color\Orange.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\pink.png">
+      <PackagePath>Resources\Color\pink.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\puple.png">
+      <PackagePath>Resources\Color\puple.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\Red.png">
+      <PackagePath>Resources\Color\Red.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\White.png">
+      <PackagePath>Resources\Color\White.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\Yellow.png">
+      <PackagePath>Resources\Color\Yellow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\fruit.png">
+      <PackagePath>Resources\fruit.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\logo.png">
+      <PackagePath>Resources\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\background.png">
+      <PackagePath>Resources\Menu\background.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\banghe.png">
+      <PackagePath>Resources\Menu\banghe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\banghec.png">
+      <PackagePath>Resources\Menu\banghec.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\giuong.png">
+      <PackagePath>Resources\Menu\giuong.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\giuongc.png">
+      <PackagePath>Resources\Menu\giuongc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Number\0.png">
+      <PackagePath>Resources\Number\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Number\1.png">
+      <PackagePath>Resources\Number\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Number\2.png">
+      <PackagePath>Resources\Number\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Number\3.png">
+      <PackagePath>Resources\Number\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Number\4.png">
+      <PackagePath>Resources\Number\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Number\5.png">
+      <PackagePath>Resources\Number\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Number\6.png">
+      <PackagePath>Resources\Number\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Number\7.png">
+      <PackagePath>Resources\Number\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Number\8.png">
+      <PackagePath>Resources\Number\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Number\9.png">
+      <PackagePath>Resources\Number\9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\option.png">
+      <PackagePath>Resources\option.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\school.png">
+      <PackagePath>Resources\school.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\start.png">
+      <PackagePath>Resources\start.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\trái cây.png">
+      <PackagePath>Resources\trái cây.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\veget.png">
+      <PackagePath>Resources\veget.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\vegetables.png">
+      <PackagePath>Resources\vegetables.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Square150x150Logo.scale-140.png">
+      <PackagePath>Square150x150Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Square44x44Logo.scale-240.png">
+      <PackagePath>Square44x44Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Square71x71Logo.scale-140.png">
+      <PackagePath>Square71x71Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\but.png">
+      <PackagePath>Resources\All\but.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\child-failed.png">
+      <PackagePath>Resources\All\child-failed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\Doraemon.png">
+      <PackagePath>Resources\All\Doraemon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\false.png">
+      <PackagePath>Resources\All\false.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\logo.png">
+      <PackagePath>Resources\All\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\meo1.png">
+      <PackagePath>Resources\All\meo1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\muiten.PNG">
+      <PackagePath>Resources\All\muiten.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\repeat.png">
+      <PackagePath>Resources\All\repeat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\speaker.png">
+      <PackagePath>Resources\All\speaker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\True.png">
+      <PackagePath>Resources\All\True.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\Completed.png">
+      <PackagePath>Resources\All\Completed.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\loa.png">
+      <PackagePath>Resources\loa.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\people.png">
+      <PackagePath>Resources\Menu\people.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\school.png">
+      <PackagePath>Resources\Menu\school.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\schoolc.png">
+      <PackagePath>Resources\Menu\schoolc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\ABC.mp3">
+      <PackagePath>Resources\All\ABC.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\baitap1.mp3">
+      <PackagePath>Resources\All\baitap1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\abed.mp3">
+      <PackagePath>Resources\Sound\abed.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\ablanket.mp3">
+      <PackagePath>Resources\Sound\ablanket.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\achair.mp3">
+      <PackagePath>Resources\Sound\achair.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\adesk.mp3">
+      <PackagePath>Resources\Sound\adesk.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\afriend.mp3">
+      <PackagePath>Resources\Sound\afriend.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\afternoon.mp3">
+      <PackagePath>Resources\Sound\afternoon.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\apillow.mp3">
+      <PackagePath>Resources\Sound\apillow.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\astudent.mp3">
+      <PackagePath>Resources\Sound\astudent.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\atable.mp3">
+      <PackagePath>Resources\Sound\atable.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\ateacher.mp3">
+      <PackagePath>Resources\Sound\ateacher.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\banbe.mp3">
+      <PackagePath>Resources\Sound\banbe.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\beds.mp3">
+      <PackagePath>Resources\Sound\beds.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\blankets.mp3">
+      <PackagePath>Resources\Sound\blankets.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\buoichieu.mp3">
+      <PackagePath>Resources\Sound\buoichieu.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\buoichieutoi.mp3">
+      <PackagePath>Resources\Sound\buoichieutoi.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\buoisang.mp3">
+      <PackagePath>Resources\Sound\buoisang.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\buoitoi.mp3">
+      <PackagePath>Resources\Sound\buoitoi.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\buoitrua.mp3">
+      <PackagePath>Resources\Sound\buoitrua.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\chairs.mp3">
+      <PackagePath>Resources\Sound\chairs.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\desks.mp3">
+      <PackagePath>Resources\Sound\desks.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\evening.mp3">
+      <PackagePath>Resources\Sound\evening.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\friends.mp3">
+      <PackagePath>Resources\Sound\friends.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\midnight.mp3">
+      <PackagePath>Resources\Sound\midnight.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\morning.mp3">
+      <PackagePath>Resources\Sound\morning.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\motcaiban.mp3">
+      <PackagePath>Resources\Sound\motcaiban.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\motcaibancongan.mp3">
+      <PackagePath>Resources\Sound\motcaibancongan.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\motcaichan.mp3">
+      <PackagePath>Resources\Sound\motcaichan.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\motcaighe.mp3">
+      <PackagePath>Resources\Sound\motcaighe.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\motcaigiuong.mp3">
+      <PackagePath>Resources\Sound\motcaigiuong.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\motcaigoi.mp3">
+      <PackagePath>Resources\Sound\motcaigoi.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\motgiaovien.mp3">
+      <PackagePath>Resources\Sound\motgiaovien.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\mothocsinh.mp3">
+      <PackagePath>Resources\Sound\mothocsinh.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaiban.mp3">
+      <PackagePath>Resources\Sound\nhieucaiban.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaibancongan.mp3">
+      <PackagePath>Resources\Sound\nhieucaibancongan.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaichan.mp3">
+      <PackagePath>Resources\Sound\nhieucaichan.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaighe.mp3">
+      <PackagePath>Resources\Sound\nhieucaighe.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaigiuong.mp3">
+      <PackagePath>Resources\Sound\nhieucaigiuong.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaigoi.mp3">
+      <PackagePath>Resources\Sound\nhieucaigoi.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\night.mp3">
+      <PackagePath>Resources\Sound\night.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\noon.mp3">
+      <PackagePath>Resources\Sound\noon.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nuadem.mp3">
+      <PackagePath>Resources\Sound\nuadem.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\pillows.mp3">
+      <PackagePath>Resources\Sound\pillows.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\students.mp3">
+      <PackagePath>Resources\Sound\students.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\tables.mp3">
+      <PackagePath>Resources\Sound\tables.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\teachers.mp3">
+      <PackagePath>Resources\Sound\teachers.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Bear.mp3">
+      <PackagePath>Resources\TranslateAnimal\Bear.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Bee.mp3">
+      <PackagePath>Resources\TranslateAnimal\Bee.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Beetle.mp3">
+      <PackagePath>Resources\TranslateAnimal\Beetle.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Buffalo.mp3">
+      <PackagePath>Resources\TranslateAnimal\Buffalo.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Butterfly.mp3">
+      <PackagePath>Resources\TranslateAnimal\Butterfly.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Camel.mp3">
+      <PackagePath>Resources\TranslateAnimal\Camel.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Cat.mp3">
+      <PackagePath>Resources\TranslateAnimal\Cat.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Cheetah.mp3">
+      <PackagePath>Resources\TranslateAnimal\Cheetah.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Cow.mp3">
+      <PackagePath>Resources\TranslateAnimal\Cow.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Deer.mp3">
+      <PackagePath>Resources\TranslateAnimal\Deer.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Dog.mp3">
+      <PackagePath>Resources\TranslateAnimal\Dog.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Dolphin.mp3">
+      <PackagePath>Resources\TranslateAnimal\Dolphin.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Donkey.mp3">
+      <PackagePath>Resources\TranslateAnimal\Donkey.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Dragonfly.mp3">
+      <PackagePath>Resources\TranslateAnimal\Dragonfly.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Duck.mp3">
+      <PackagePath>Resources\TranslateAnimal\Duck.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Duckling.mp3">
+      <PackagePath>Resources\TranslateAnimal\Duckling.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Dung_beetle.mp3">
+      <PackagePath>Resources\TranslateAnimal\Dung_beetle.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Eagle.mp3">
+      <PackagePath>Resources\TranslateAnimal\Eagle.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Elephant.mp3">
+      <PackagePath>Resources\TranslateAnimal\Elephant.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Firefly.mp3">
+      <PackagePath>Resources\TranslateAnimal\Firefly.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Fox.mp3">
+      <PackagePath>Resources\TranslateAnimal\Fox.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Frog.mp3">
+      <PackagePath>Resources\TranslateAnimal\Frog.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Giraffe.mp3">
+      <PackagePath>Resources\TranslateAnimal\Giraffe.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Goat.mp3">
+      <PackagePath>Resources\TranslateAnimal\Goat.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Goatling.mp3">
+      <PackagePath>Resources\TranslateAnimal\Goatling.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Hippo.mp3">
+      <PackagePath>Resources\TranslateAnimal\Hippo.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Horse.mp3">
+      <PackagePath>Resources\TranslateAnimal\Horse.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Kangaroo.mp3">
+      <PackagePath>Resources\TranslateAnimal\Kangaroo.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Kitten.mp3">
+      <PackagePath>Resources\TranslateAnimal\Kitten.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Ladybug.mp3">
+      <PackagePath>Resources\TranslateAnimal\Ladybug.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Lion.mp3">
+      <PackagePath>Resources\TranslateAnimal\Lion.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Monkey.mp3">
+      <PackagePath>Resources\TranslateAnimal\Monkey.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Mosquito.mp3">
+      <PackagePath>Resources\TranslateAnimal\Mosquito.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Mouse.mp3">
+      <PackagePath>Resources\TranslateAnimal\Mouse.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Penguin.mp3">
+      <PackagePath>Resources\TranslateAnimal\Penguin.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Pig.mp3">
+      <PackagePath>Resources\TranslateAnimal\Pig.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Puppy.mp3">
+      <PackagePath>Resources\TranslateAnimal\Puppy.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Rabbit.mp3">
+      <PackagePath>Resources\TranslateAnimal\Rabbit.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Rhino.mp3">
+      <PackagePath>Resources\TranslateAnimal\Rhino.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Rooster.mp3">
+      <PackagePath>Resources\TranslateAnimal\Rooster.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Sharks.mp3">
+      <PackagePath>Resources\TranslateAnimal\Sharks.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Snake.mp3">
+      <PackagePath>Resources\TranslateAnimal\Snake.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Tiger.mp3">
+      <PackagePath>Resources\TranslateAnimal\Tiger.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Whale.mp3">
+      <PackagePath>Resources\TranslateAnimal\Whale.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Wolf.mp3">
+      <PackagePath>Resources\TranslateAnimal\Wolf.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateAnimal\Zebra.mp3">
+      <PackagePath>Resources\TranslateAnimal\Zebra.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\BaseballCap.mp3">
+      <PackagePath>Resources\TranslateClothing\BaseballCap.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Belt.mp3">
+      <PackagePath>Resources\TranslateClothing\Belt.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Blouse.mp3">
+      <PackagePath>Resources\TranslateClothing\Blouse.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Boots.mp3">
+      <PackagePath>Resources\TranslateClothing\Boots.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\BowTie.mp3">
+      <PackagePath>Resources\TranslateClothing\BowTie.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Dress.mp3">
+      <PackagePath>Resources\TranslateClothing\Dress.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Earrings.mp3">
+      <PackagePath>Resources\TranslateClothing\Earrings.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Glasses.mp3">
+      <PackagePath>Resources\TranslateClothing\Glasses.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Gloves.mp3">
+      <PackagePath>Resources\TranslateClothing\Gloves.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\HighHeels.mp3">
+      <PackagePath>Resources\TranslateClothing\HighHeels.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Jeans.mp3">
+      <PackagePath>Resources\TranslateClothing\Jeans.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\LeatherJacket.mp3">
+      <PackagePath>Resources\TranslateClothing\LeatherJacket.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Lipstick.mp3">
+      <PackagePath>Resources\TranslateClothing\Lipstick.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Overcoat.mp3">
+      <PackagePath>Resources\TranslateClothing\Overcoat.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Pyjamas.mp3">
+      <PackagePath>Resources\TranslateClothing\Pyjamas.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Raincoat.mp3">
+      <PackagePath>Resources\TranslateClothing\Raincoat.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Sandals.mp3">
+      <PackagePath>Resources\TranslateClothing\Sandals.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Scarf.mp3">
+      <PackagePath>Resources\TranslateClothing\Scarf.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Shirt.mp3">
+      <PackagePath>Resources\TranslateClothing\Shirt.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Shorts.mp3">
+      <PackagePath>Resources\TranslateClothing\Shorts.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Skirt.mp3">
+      <PackagePath>Resources\TranslateClothing\Skirt.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Slippers.mp3">
+      <PackagePath>Resources\TranslateClothing\Slippers.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Socks.mp3">
+      <PackagePath>Resources\TranslateClothing\Socks.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Stockings.mp3">
+      <PackagePath>Resources\TranslateClothing\Stockings.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Sunglasses.mp3">
+      <PackagePath>Resources\TranslateClothing\Sunglasses.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Sweater.mp3">
+      <PackagePath>Resources\TranslateClothing\Sweater.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\SwimmingCostume.mp3">
+      <PackagePath>Resources\TranslateClothing\SwimmingCostume.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\T-shirt.mp3">
+      <PackagePath>Resources\TranslateClothing\T-shirt.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Tie.mp3">
+      <PackagePath>Resources\TranslateClothing\Tie.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Trainers.mp3">
+      <PackagePath>Resources\TranslateClothing\Trainers.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Trousers.mp3">
+      <PackagePath>Resources\TranslateClothing\Trousers.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Umbrella.mp3">
+      <PackagePath>Resources\TranslateClothing\Umbrella.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Watch.mp3">
+      <PackagePath>Resources\TranslateClothing\Watch.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateClothing\Wellingtons.mp3">
+      <PackagePath>Resources\TranslateClothing\Wellingtons.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\Black.mp3">
+      <PackagePath>Resources\TranslateColor\Black.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\Blue.mp3">
+      <PackagePath>Resources\TranslateColor\Blue.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\Brown.mp3">
+      <PackagePath>Resources\TranslateColor\Brown.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\DarkBlue.mp3">
+      <PackagePath>Resources\TranslateColor\DarkBlue.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\DarkBrown.mp3">
+      <PackagePath>Resources\TranslateColor\DarkBrown.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\DarkGreen.mp3">
+      <PackagePath>Resources\TranslateColor\DarkGreen.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\DarkRed.mp3">
+      <PackagePath>Resources\TranslateColor\DarkRed.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\DarkYellow.mp3">
+      <PackagePath>Resources\TranslateColor\DarkYellow.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\Green.mp3">
+      <PackagePath>Resources\TranslateColor\Green.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\Grey.mp3">
+      <PackagePath>Resources\TranslateColor\Grey.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\LightBlue.mp3">
+      <PackagePath>Resources\TranslateColor\LightBlue.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\LightBrown.mp3">
+      <PackagePath>Resources\TranslateColor\LightBrown.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\LightGreen1.mp3">
+      <PackagePath>Resources\TranslateColor\LightGreen1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\LightRed.mp3">
+      <PackagePath>Resources\TranslateColor\LightRed.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\LightYellow.mp3">
+      <PackagePath>Resources\TranslateColor\LightYellow.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\Orange.mp3">
+      <PackagePath>Resources\TranslateColor\Orange.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\Pink.mp3">
+      <PackagePath>Resources\TranslateColor\Pink.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\Purple.mp3">
+      <PackagePath>Resources\TranslateColor\Purple.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\Red.mp3">
+      <PackagePath>Resources\TranslateColor\Red.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\White.mp3">
+      <PackagePath>Resources\TranslateColor\White.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateColor\Yellow.mp3">
+      <PackagePath>Resources\TranslateColor\Yellow.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Apple.mp3">
+      <PackagePath>Resources\TranslateFruit\Apple.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Apricot.mp3">
+      <PackagePath>Resources\TranslateFruit\Apricot.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Avocado.mp3">
+      <PackagePath>Resources\TranslateFruit\Avocado.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Banana.mp3">
+      <PackagePath>Resources\TranslateFruit\Banana.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Cherry.mp3">
+      <PackagePath>Resources\TranslateFruit\Cherry.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Coconut.mp3">
+      <PackagePath>Resources\TranslateFruit\Coconut.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Custard-apple.mp3">
+      <PackagePath>Resources\TranslateFruit\Custard-apple.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Dragon-fruit.mp3">
+      <PackagePath>Resources\TranslateFruit\Dragon-fruit.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Durian.mp3">
+      <PackagePath>Resources\TranslateFruit\Durian.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Grape.mp3">
+      <PackagePath>Resources\TranslateFruit\Grape.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Grapefruit.mp3">
+      <PackagePath>Resources\TranslateFruit\Grapefruit.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Guava.mp3">
+      <PackagePath>Resources\TranslateFruit\Guava.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Jackfruit.mp3">
+      <PackagePath>Resources\TranslateFruit\Jackfruit.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Kiwi-fruit.mp3">
+      <PackagePath>Resources\TranslateFruit\Kiwi-fruit.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Kumquat.mp3">
+      <PackagePath>Resources\TranslateFruit\Kumquat.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Lemon.mp3">
+      <PackagePath>Resources\TranslateFruit\Lemon.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Lime.mp3">
+      <PackagePath>Resources\TranslateFruit\Lime.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Longan.mp3">
+      <PackagePath>Resources\TranslateFruit\Longan.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Lychee.mp3">
+      <PackagePath>Resources\TranslateFruit\Lychee.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Mandarin.mp3">
+      <PackagePath>Resources\TranslateFruit\Mandarin.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Mango.mp3">
+      <PackagePath>Resources\TranslateFruit\Mango.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Mangosteen.mp3">
+      <PackagePath>Resources\TranslateFruit\Mangosteen.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Orange.mp3">
+      <PackagePath>Resources\TranslateFruit\Orange.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Papaya.mp3">
+      <PackagePath>Resources\TranslateFruit\Papaya.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Passion-fruit.mp3">
+      <PackagePath>Resources\TranslateFruit\Passion-fruit.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Peach.mp3">
+      <PackagePath>Resources\TranslateFruit\Peach.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Persimmon.mp3">
+      <PackagePath>Resources\TranslateFruit\Persimmon.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Pineapple.mp3">
+      <PackagePath>Resources\TranslateFruit\Pineapple.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Plum.mp3">
+      <PackagePath>Resources\TranslateFruit\Plum.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Pomegranate.mp3">
+      <PackagePath>Resources\TranslateFruit\Pomegranate.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Rambutan.mp3">
+      <PackagePath>Resources\TranslateFruit\Rambutan.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Sapodilla.mp3">
+      <PackagePath>Resources\TranslateFruit\Sapodilla.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Soursop.mp3">
+      <PackagePath>Resources\TranslateFruit\Soursop.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Starfruit.mp3">
+      <PackagePath>Resources\TranslateFruit\Starfruit.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Strawberry.mp3">
+      <PackagePath>Resources\TranslateFruit\Strawberry.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateFruit\Watermelon.mp3">
+      <PackagePath>Resources\TranslateFruit\Watermelon.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslatenNumber\0.mp3">
+      <PackagePath>Resources\TranslatenNumber\0.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslatenNumber\1.mp3">
+      <PackagePath>Resources\TranslatenNumber\1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslatenNumber\2.mp3">
+      <PackagePath>Resources\TranslatenNumber\2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslatenNumber\3.mp3">
+      <PackagePath>Resources\TranslatenNumber\3.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslatenNumber\4.mp3">
+      <PackagePath>Resources\TranslatenNumber\4.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslatenNumber\5.mp3">
+      <PackagePath>Resources\TranslatenNumber\5.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslatenNumber\6.mp3">
+      <PackagePath>Resources\TranslatenNumber\6.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslatenNumber\7.mp3">
+      <PackagePath>Resources\TranslatenNumber\7.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslatenNumber\8.mp3">
+      <PackagePath>Resources\TranslatenNumber\8.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslatenNumber\9.mp3">
+      <PackagePath>Resources\TranslatenNumber\9.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Bag.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Bag.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\BallPointPen.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\BallPointPen.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Book.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Book.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Calculator.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Calculator.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Chalk.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Chalk.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Clip.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Clip.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Compa.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Compa.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Crayon.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Crayon.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Eke.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Eke.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Eraser1.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Eraser1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\EraserPen.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\EraserPen.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Highlighter.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Highlighter.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Ink.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Ink.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\NoteBook.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\NoteBook.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\PaperKnife.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\PaperKnife.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Pen.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Pen.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\PenBox.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\PenBox.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Pencil.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Pencil.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\PencilSharpener.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\PencilSharpener.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\PushPin.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\PushPin.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Ruler.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Ruler.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Scissor.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Scissor.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateSchoolSupplies\Table.mp3">
+      <PackagePath>Resources\TranslateSchoolSupplies\Table.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Aroma.mp3">
+      <PackagePath>Resources\TranslateVegetables\Aroma.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Asparagus-Bean.mp3">
+      <PackagePath>Resources\TranslateVegetables\Asparagus-Bean.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Asparagus.mp3">
+      <PackagePath>Resources\TranslateVegetables\Asparagus.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Bambo-Shoot.mp3">
+      <PackagePath>Resources\TranslateVegetables\Bambo-Shoot.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Barley.mp3">
+      <PackagePath>Resources\TranslateVegetables\Barley.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Bell-pepper.mp3">
+      <PackagePath>Resources\TranslateVegetables\Bell-pepper.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Bok-choy.mp3">
+      <PackagePath>Resources\TranslateVegetables\Bok-choy.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Broccoli.mp3">
+      <PackagePath>Resources\TranslateVegetables\Broccoli.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Cabbage.mp3">
+      <PackagePath>Resources\TranslateVegetables\Cabbage.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Carrot.mp3">
+      <PackagePath>Resources\TranslateVegetables\Carrot.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Cauliflower.mp3">
+      <PackagePath>Resources\TranslateVegetables\Cauliflower.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Celery.mp3">
+      <PackagePath>Resources\TranslateVegetables\Celery.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Corn.mp3">
+      <PackagePath>Resources\TranslateVegetables\Corn.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Dill.mp3">
+      <PackagePath>Resources\TranslateVegetables\Dill.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Edible-luffa.mp3">
+      <PackagePath>Resources\TranslateVegetables\Edible-luffa.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Eggplant.mp3">
+      <PackagePath>Resources\TranslateVegetables\Eggplant.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Fish-mint.mp3">
+      <PackagePath>Resources\TranslateVegetables\Fish-mint.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Fuzzy-squash.mp3">
+      <PackagePath>Resources\TranslateVegetables\Fuzzy-squash.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Gai-lan.mp3">
+      <PackagePath>Resources\TranslateVegetables\Gai-lan.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Gai_choy.mp3">
+      <PackagePath>Resources\TranslateVegetables\Gai_choy.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Ginger.mp3">
+      <PackagePath>Resources\TranslateVegetables\Ginger.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Heleocharis.mp3">
+      <PackagePath>Resources\TranslateVegetables\Heleocharis.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Ice-buerg-lettuce.mp3">
+      <PackagePath>Resources\TranslateVegetables\Ice-buerg-lettuce.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Jute-plant.mp3">
+      <PackagePath>Resources\TranslateVegetables\Jute-plant.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Kohlrabi.mp3">
+      <PackagePath>Resources\TranslateVegetables\Kohlrabi.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Latus-root.mp3">
+      <PackagePath>Resources\TranslateVegetables\Latus-root.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Lemongrass.mp3">
+      <PackagePath>Resources\TranslateVegetables\Lemongrass.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Mushroon.mp3">
+      <PackagePath>Resources\TranslateVegetables\Mushroon.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Okra.mp3">
+      <PackagePath>Resources\TranslateVegetables\Okra.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Perrila-leaf.mp3">
+      <PackagePath>Resources\TranslateVegetables\Perrila-leaf.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Piper-lolot.mp3">
+      <PackagePath>Resources\TranslateVegetables\Piper-lolot.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Potato.mp3">
+      <PackagePath>Resources\TranslateVegetables\Potato.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Quince.mp3">
+      <PackagePath>Resources\TranslateVegetables\Quince.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Red-bean.mp3">
+      <PackagePath>Resources\TranslateVegetables\Red-bean.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Rice.mp3">
+      <PackagePath>Resources\TranslateVegetables\Rice.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Seville-beet.mp3">
+      <PackagePath>Resources\TranslateVegetables\Seville-beet.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Sugarcane.mp3">
+      <PackagePath>Resources\TranslateVegetables\Sugarcane.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Tomato.mp3">
+      <PackagePath>Resources\TranslateVegetables\Tomato.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Vanilla.mp3">
+      <PackagePath>Resources\TranslateVegetables\Vanilla.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Water-morning-glory.mp3">
+      <PackagePath>Resources\TranslateVegetables\Water-morning-glory.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Yam.mp3">
+      <PackagePath>Resources\TranslateVegetables\Yam.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\TranslateVegetables\Zucchini.mp3">
+      <PackagePath>Resources\TranslateVegetables\Zucchini.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\A.mp3">
+      <PackagePath>Resources\Translate\A.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\B.mp3">
+      <PackagePath>Resources\Translate\B.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\C.mp3">
+      <PackagePath>Resources\Translate\C.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\D.mp3">
+      <PackagePath>Resources\Translate\D.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\E.mp3">
+      <PackagePath>Resources\Translate\E.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\F.mp3">
+      <PackagePath>Resources\Translate\F.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\G.mp3">
+      <PackagePath>Resources\Translate\G.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\H.mp3">
+      <PackagePath>Resources\Translate\H.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\I.mp3">
+      <PackagePath>Resources\Translate\I.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\J.mp3">
+      <PackagePath>Resources\Translate\J.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\K.mp3">
+      <PackagePath>Resources\Translate\K.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\L.mp3">
+      <PackagePath>Resources\Translate\L.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\M.mp3">
+      <PackagePath>Resources\Translate\M.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\N.mp3">
+      <PackagePath>Resources\Translate\N.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\O.mp3">
+      <PackagePath>Resources\Translate\O.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\P.mp3">
+      <PackagePath>Resources\Translate\P.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\Q.mp3">
+      <PackagePath>Resources\Translate\Q.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\R.mp3">
+      <PackagePath>Resources\Translate\R.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\S.mp3">
+      <PackagePath>Resources\Translate\S.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\T.mp3">
+      <PackagePath>Resources\Translate\T.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\U.mp3">
+      <PackagePath>Resources\Translate\U.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\V.mp3">
+      <PackagePath>Resources\Translate\V.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\W.mp3">
+      <PackagePath>Resources\Translate\W.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\X.mp3">
+      <PackagePath>Resources\Translate\X.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\Y.mp3">
+      <PackagePath>Resources\Translate\Y.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Translate\Z.mp3">
+      <PackagePath>Resources\Translate\Z.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\baitap.mp3">
+      <PackagePath>Resources\All\baitap.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\bt2.mp3">
+      <PackagePath>Resources\All\bt2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\Exactly.mp3">
+      <PackagePath>Resources\All\Exactly.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\HTBT1.mp3">
+      <PackagePath>Resources\All\HTBT1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\HTBT2.mp3">
+      <PackagePath>Resources\All\HTBT2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\HTBT3.mp3">
+      <PackagePath>Resources\All\HTBT3.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\HTUnit.mp3">
+      <PackagePath>Resources\All\HTUnit.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\intro1.mp3">
+      <PackagePath>Resources\All\intro1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\intro2.mp3">
+      <PackagePath>Resources\All\intro2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\introBT3.mp3">
+      <PackagePath>Resources\All\introBT3.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\KHTBT1.mp3">
+      <PackagePath>Resources\All\KHTBT1.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\KHTBT2.mp3">
+      <PackagePath>Resources\All\KHTBT2.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\KHTBT3.mp3">
+      <PackagePath>Resources\All\KHTBT3.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\sorry.mp3">
+      <PackagePath>Resources\All\sorry.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\aboy.mp3">
+      <PackagePath>Resources\Sound\aboy.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\agirl.mp3">
+      <PackagePath>Resources\Sound\agirl.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\agrandfather.mp3">
+      <PackagePath>Resources\Sound\agrandfather.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\agrandmother.mp3">
+      <PackagePath>Resources\Sound\agrandmother.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\aname.mp3">
+      <PackagePath>Resources\Sound\aname.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\anh.mp3">
+      <PackagePath>Resources\Sound\anh.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\ba.mp3">
+      <PackagePath>Resources\Sound\ba.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\boys.mp3">
+      <PackagePath>Resources\Sound\boys.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\abrother.mp3">
+      <PackagePath>Resources\Sound\abrother.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\brothers.mp3">
+      <PackagePath>Resources\Sound\brothers.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\chi.mp3">
+      <PackagePath>Resources\Sound\chi.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\dad.mp3">
+      <PackagePath>Resources\Sound\dad.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\giacu.mp3">
+      <PackagePath>Resources\Sound\giacu.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\girls.mp3">
+      <PackagePath>Resources\Sound\girls.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\grandfathers.mp3">
+      <PackagePath>Resources\Sound\grandfathers.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\grandmothers.mp3">
+      <PackagePath>Resources\Sound\grandmothers.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\grandparent.mp3">
+      <PackagePath>Resources\Sound\grandparent.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\me.mp3">
+      <PackagePath>Resources\Sound\me.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\mom.mp3">
+      <PackagePath>Resources\Sound\mom.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\motcaiten.mp3">
+      <PackagePath>Resources\Sound\motcaiten.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\motcaube.mp3">
+      <PackagePath>Resources\Sound\motcaube.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\motcobe.mp3">
+      <PackagePath>Resources\Sound\motcobe.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\motnguoiba.mp3">
+      <PackagePath>Resources\Sound\motnguoiba.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\motnguoiban.mp3">
+      <PackagePath>Resources\Sound\motnguoiban.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\motnguoiong.mp3">
+      <PackagePath>Resources\Sound\motnguoiong.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\names.mp3">
+      <PackagePath>Resources\Sound\names.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieuanh.mp3">
+      <PackagePath>Resources\Sound\nhieuanh.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaiten.mp3">
+      <PackagePath>Resources\Sound\nhieucaiten.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieucaube.mp3">
+      <PackagePath>Resources\Sound\nhieucaube.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieuchi.mp3">
+      <PackagePath>Resources\Sound\nhieuchi.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieucobe.mp3">
+      <PackagePath>Resources\Sound\nhieucobe.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieugiaovien.mp3">
+      <PackagePath>Resources\Sound\nhieugiaovien.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieuhocsinh.mp3">
+      <PackagePath>Resources\Sound\nhieuhocsinh.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieunguoiba.mp3">
+      <PackagePath>Resources\Sound\nhieunguoiba.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\nhieunguoiong.mp3">
+      <PackagePath>Resources\Sound\nhieunguoiong.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\old.mp3">
+      <PackagePath>Resources\Sound\old.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\ongba.mp3">
+      <PackagePath>Resources\Sound\ongba.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\asister.mp3">
+      <PackagePath>Resources\Sound\asister.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Sound\sisters.mp3">
+      <PackagePath>Resources\Sound\sisters.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Bear.jpg">
+      <PackagePath>Resources\Animal\Bear.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Bee.jpg">
+      <PackagePath>Resources\Animal\Bee.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Buffalo.jpg">
+      <PackagePath>Resources\Animal\Buffalo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Camel.jpg">
+      <PackagePath>Resources\Animal\Camel.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Cat.jpg">
+      <PackagePath>Resources\Animal\Cat.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Cheetah.jpg">
+      <PackagePath>Resources\Animal\Cheetah.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Cow.jpg">
+      <PackagePath>Resources\Animal\Cow.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Deer.jpg">
+      <PackagePath>Resources\Animal\Deer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Dog.jpg">
+      <PackagePath>Resources\Animal\Dog.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Dolphin.jpg">
+      <PackagePath>Resources\Animal\Dolphin.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Duck.jpg">
+      <PackagePath>Resources\Animal\Duck.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Duckling.jpg">
+      <PackagePath>Resources\Animal\Duckling.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Eagle.jpg">
+      <PackagePath>Resources\Animal\Eagle.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Elephant.jpg">
+      <PackagePath>Resources\Animal\Elephant.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Fox.jpg">
+      <PackagePath>Resources\Animal\Fox.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Frog.jpg">
+      <PackagePath>Resources\Animal\Frog.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Goat.jpg">
+      <PackagePath>Resources\Animal\Goat.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Goatling.jpg">
+      <PackagePath>Resources\Animal\Goatling.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Hippo.jpg">
+      <PackagePath>Resources\Animal\Hippo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Horse.jpg">
+      <PackagePath>Resources\Animal\Horse.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Kitten.jpg">
+      <PackagePath>Resources\Animal\Kitten.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Lion.jpg">
+      <PackagePath>Resources\Animal\Lion.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Mosquito.jpg">
+      <PackagePath>Resources\Animal\Mosquito.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Mouse.jpg">
+      <PackagePath>Resources\Animal\Mouse.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Pig.jpg">
+      <PackagePath>Resources\Animal\Pig.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Puppy.jpg">
+      <PackagePath>Resources\Animal\Puppy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Rabbit.jpg">
+      <PackagePath>Resources\Animal\Rabbit.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Rhino.jpg">
+      <PackagePath>Resources\Animal\Rhino.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Rooster.jpg">
+      <PackagePath>Resources\Animal\Rooster.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Snake.jpg">
+      <PackagePath>Resources\Animal\Snake.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Tiger.jpg">
+      <PackagePath>Resources\Animal\Tiger.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Whale.jpg">
+      <PackagePath>Resources\Animal\Whale.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Wolf.jpg">
+      <PackagePath>Resources\Animal\Wolf.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Animal\Zebra.jpg">
+      <PackagePath>Resources\Animal\Zebra.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\backgroud2.jpg">
+      <PackagePath>Resources\backgroud2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\BaseballCap.jpg">
+      <PackagePath>Resources\Clothing\BaseballCap.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Belt.jpg">
+      <PackagePath>Resources\Clothing\Belt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Blouse.jpg">
+      <PackagePath>Resources\Clothing\Blouse.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Boots.jpg">
+      <PackagePath>Resources\Clothing\Boots.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\BowTie.jpg">
+      <PackagePath>Resources\Clothing\BowTie.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Dress.jpg">
+      <PackagePath>Resources\Clothing\Dress.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Earrings.jpg">
+      <PackagePath>Resources\Clothing\Earrings.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Glasses.jpg">
+      <PackagePath>Resources\Clothing\Glasses.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Gloves.jpg">
+      <PackagePath>Resources\Clothing\Gloves.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\HighHeels.jpg">
+      <PackagePath>Resources\Clothing\HighHeels.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Jeans.jpg">
+      <PackagePath>Resources\Clothing\Jeans.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\LeatherJacket.jpg">
+      <PackagePath>Resources\Clothing\LeatherJacket.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Lipstick.jpg">
+      <PackagePath>Resources\Clothing\Lipstick.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Overcoat.jpg">
+      <PackagePath>Resources\Clothing\Overcoat.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Pyjamas.jpg">
+      <PackagePath>Resources\Clothing\Pyjamas.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Raincoat.jpg">
+      <PackagePath>Resources\Clothing\Raincoat.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Sandals.jpg">
+      <PackagePath>Resources\Clothing\Sandals.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Scarf.jpg">
+      <PackagePath>Resources\Clothing\Scarf.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Shirt.jpg">
+      <PackagePath>Resources\Clothing\Shirt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Shorts.jpg">
+      <PackagePath>Resources\Clothing\Shorts.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Skirt.jpg">
+      <PackagePath>Resources\Clothing\Skirt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Slippers.jpg">
+      <PackagePath>Resources\Clothing\Slippers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Socks.jpg">
+      <PackagePath>Resources\Clothing\Socks.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Stockings.jpg">
+      <PackagePath>Resources\Clothing\Stockings.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Sunglasses.jpg">
+      <PackagePath>Resources\Clothing\Sunglasses.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Sweater.jpg">
+      <PackagePath>Resources\Clothing\Sweater.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\SwimmingCostume.jpg">
+      <PackagePath>Resources\Clothing\SwimmingCostume.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\T-shirt.jpg">
+      <PackagePath>Resources\Clothing\T-shirt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Tie.jpg">
+      <PackagePath>Resources\Clothing\Tie.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Trainers.jpg">
+      <PackagePath>Resources\Clothing\Trainers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Trousers.jpg">
+      <PackagePath>Resources\Clothing\Trousers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Umbrella.jpg">
+      <PackagePath>Resources\Clothing\Umbrella.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Watch.jpg">
+      <PackagePath>Resources\Clothing\Watch.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Clothing\Wellingtons.jpg">
+      <PackagePath>Resources\Clothing\Wellingtons.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\color1.jpg">
+      <PackagePath>Resources\color1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\Brown.jpg">
+      <PackagePath>Resources\Color\Brown.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\DarkGreen.jpg">
+      <PackagePath>Resources\Color\DarkGreen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\DarkRed.jpg">
+      <PackagePath>Resources\Color\DarkRed.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\DarkYellow.jpg">
+      <PackagePath>Resources\Color\DarkYellow.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\LightBlue.jpg">
+      <PackagePath>Resources\Color\LightBlue.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\LightGreen1.jpg">
+      <PackagePath>Resources\Color\LightGreen1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\LightYellow.jpg">
+      <PackagePath>Resources\Color\LightYellow.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Color\Pink.jpg">
+      <PackagePath>Resources\Color\Pink.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Apple.jpg">
+      <PackagePath>Resources\Fruit\Apple.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Apricot.jpg">
+      <PackagePath>Resources\Fruit\Apricot.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Avocado.jpg">
+      <PackagePath>Resources\Fruit\Avocado.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Banana.jpg">
+      <PackagePath>Resources\Fruit\Banana.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Cherry.jpg">
+      <PackagePath>Resources\Fruit\Cherry.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Coconut.jpg">
+      <PackagePath>Resources\Fruit\Coconut.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Custard-apple.jpg">
+      <PackagePath>Resources\Fruit\Custard-apple.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Dragon-fruit.jpg">
+      <PackagePath>Resources\Fruit\Dragon-fruit.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Durian.jpg">
+      <PackagePath>Resources\Fruit\Durian.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Grape.jpg">
+      <PackagePath>Resources\Fruit\Grape.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Grapefruit.jpg">
+      <PackagePath>Resources\Fruit\Grapefruit.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Guava.jpg">
+      <PackagePath>Resources\Fruit\Guava.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Jackfruit.jpg">
+      <PackagePath>Resources\Fruit\Jackfruit.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Kiwi-fruit.jpg">
+      <PackagePath>Resources\Fruit\Kiwi-fruit.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Kumquat.jpg">
+      <PackagePath>Resources\Fruit\Kumquat.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Lemon.jpg">
+      <PackagePath>Resources\Fruit\Lemon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Lime.jpg">
+      <PackagePath>Resources\Fruit\Lime.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Longan.jpg">
+      <PackagePath>Resources\Fruit\Longan.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Lychee.jpg">
+      <PackagePath>Resources\Fruit\Lychee.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Mandarin.jpg">
+      <PackagePath>Resources\Fruit\Mandarin.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Mango.jpg">
+      <PackagePath>Resources\Fruit\Mango.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Mangosteen.jpg">
+      <PackagePath>Resources\Fruit\Mangosteen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Orange.jpg">
+      <PackagePath>Resources\Fruit\Orange.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Papaya.jpg">
+      <PackagePath>Resources\Fruit\Papaya.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Passion-fruit.jpg">
+      <PackagePath>Resources\Fruit\Passion-fruit.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Peach.jpg">
+      <PackagePath>Resources\Fruit\Peach.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Persimmon.jpg">
+      <PackagePath>Resources\Fruit\Persimmon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Pineapple.jpg">
+      <PackagePath>Resources\Fruit\Pineapple.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Plum.jpg">
+      <PackagePath>Resources\Fruit\Plum.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Pomegranate.jpg">
+      <PackagePath>Resources\Fruit\Pomegranate.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Rambutan.jpg">
+      <PackagePath>Resources\Fruit\Rambutan.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Sapodilla.jpg">
+      <PackagePath>Resources\Fruit\Sapodilla.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Soursop.jpg">
+      <PackagePath>Resources\Fruit\Soursop.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Starfruit.jpg">
+      <PackagePath>Resources\Fruit\Starfruit.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Fruit\Strawberry.jpg">
+      <PackagePath>Resources\Fruit\Strawberry.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\images.jpg">
+      <PackagePath>Resources\images.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\abed.jpg">
+      <PackagePath>Resources\Image\abed.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\ablanket.jpg">
+      <PackagePath>Resources\Image\ablanket.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\achair.jpg">
+      <PackagePath>Resources\Image\achair.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\adesk.jpg">
+      <PackagePath>Resources\Image\adesk.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\afternoon.jpg">
+      <PackagePath>Resources\Image\afternoon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\apillow.jpg">
+      <PackagePath>Resources\Image\apillow.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\atable.jpg">
+      <PackagePath>Resources\Image\atable.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\beds.jpg">
+      <PackagePath>Resources\Image\beds.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\blankets.jpg">
+      <PackagePath>Resources\Image\blankets.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\chairs.jpg">
+      <PackagePath>Resources\Image\chairs.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\desks.jpg">
+      <PackagePath>Resources\Image\desks.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\evening.jpg">
+      <PackagePath>Resources\Image\evening.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\midnight.jpg">
+      <PackagePath>Resources\Image\midnight.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\morning.jpg">
+      <PackagePath>Resources\Image\morning.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\night.jpg">
+      <PackagePath>Resources\Image\night.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\noon.jpg">
+      <PackagePath>Resources\Image\noon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\pillows.jpg">
+      <PackagePath>Resources\Image\pillows.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\tables.jpg">
+      <PackagePath>Resources\Image\tables.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\backgroud.jpg">
+      <PackagePath>Resources\Menu\backgroud.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\ngaydem.jpg">
+      <PackagePath>Resources\Menu\ngaydem.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\ngaydemc.jpg">
+      <PackagePath>Resources\Menu\ngaydemc.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\numbers.jpg">
+      <PackagePath>Resources\numbers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\school.jpg">
+      <PackagePath>Resources\school.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Bag.jpg">
+      <PackagePath>Resources\SchoolSupplies\Bag.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\BallPointPen.jpg">
+      <PackagePath>Resources\SchoolSupplies\BallPointPen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Book.jpg">
+      <PackagePath>Resources\SchoolSupplies\Book.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Calculator.jpg">
+      <PackagePath>Resources\SchoolSupplies\Calculator.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Chalk.jpg">
+      <PackagePath>Resources\SchoolSupplies\Chalk.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Clip.jpg">
+      <PackagePath>Resources\SchoolSupplies\Clip.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Compa.jpg">
+      <PackagePath>Resources\SchoolSupplies\Compa.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Crayon.jpg">
+      <PackagePath>Resources\SchoolSupplies\Crayon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Eke.jpg">
+      <PackagePath>Resources\SchoolSupplies\Eke.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Eraser1.jpg">
+      <PackagePath>Resources\SchoolSupplies\Eraser1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\EraserPen.jpg">
+      <PackagePath>Resources\SchoolSupplies\EraserPen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Highlighter.jpg">
+      <PackagePath>Resources\SchoolSupplies\Highlighter.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Ink.jpg">
+      <PackagePath>Resources\SchoolSupplies\Ink.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\NoteBook.jpg">
+      <PackagePath>Resources\SchoolSupplies\NoteBook.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\PaperKnife.jpg">
+      <PackagePath>Resources\SchoolSupplies\PaperKnife.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Pen.jpg">
+      <PackagePath>Resources\SchoolSupplies\Pen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\PenBox.jpg">
+      <PackagePath>Resources\SchoolSupplies\PenBox.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Pencil.jpg">
+      <PackagePath>Resources\SchoolSupplies\Pencil.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\PencilSharpener.jpg">
+      <PackagePath>Resources\SchoolSupplies\PencilSharpener.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\PushPin.jpg">
+      <PackagePath>Resources\SchoolSupplies\PushPin.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Ruler.jpg">
+      <PackagePath>Resources\SchoolSupplies\Ruler.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Scissor.jpg">
+      <PackagePath>Resources\SchoolSupplies\Scissor.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\SchoolSupplies\Table.jpg">
+      <PackagePath>Resources\SchoolSupplies\Table.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\sunshinekidssun.jpg">
+      <PackagePath>Resources\sunshinekidssun.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Aroma.jpg">
+      <PackagePath>Resources\Vegetables\Aroma.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Asparagus-Bean.jpg">
+      <PackagePath>Resources\Vegetables\Asparagus-Bean.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Asparagus.jpg">
+      <PackagePath>Resources\Vegetables\Asparagus.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Bambo-Shoot.jpg">
+      <PackagePath>Resources\Vegetables\Bambo-Shoot.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Barley.jpg">
+      <PackagePath>Resources\Vegetables\Barley.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Bell-pepper.jpg">
+      <PackagePath>Resources\Vegetables\Bell-pepper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Bok-choy.jpg">
+      <PackagePath>Resources\Vegetables\Bok-choy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Broccoli.jpg">
+      <PackagePath>Resources\Vegetables\Broccoli.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Cabbage.jpg">
+      <PackagePath>Resources\Vegetables\Cabbage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Carrot.jpg">
+      <PackagePath>Resources\Vegetables\Carrot.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Cauliflower.jpg">
+      <PackagePath>Resources\Vegetables\Cauliflower.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Celery.jpg">
+      <PackagePath>Resources\Vegetables\Celery.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Corn.jpg">
+      <PackagePath>Resources\Vegetables\Corn.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Dill.jpg">
+      <PackagePath>Resources\Vegetables\Dill.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Edible-luffa.jpg">
+      <PackagePath>Resources\Vegetables\Edible-luffa.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Eggplant.jpg">
+      <PackagePath>Resources\Vegetables\Eggplant.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Fish-mint.jpg">
+      <PackagePath>Resources\Vegetables\Fish-mint.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Fuzzy-squash.jpg">
+      <PackagePath>Resources\Vegetables\Fuzzy-squash.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Gai-lan.jpg">
+      <PackagePath>Resources\Vegetables\Gai-lan.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Gai_choy.jpg">
+      <PackagePath>Resources\Vegetables\Gai_choy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Ginger.jpg">
+      <PackagePath>Resources\Vegetables\Ginger.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Heleocharis.jpg">
+      <PackagePath>Resources\Vegetables\Heleocharis.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Ice-buerg-lettuce.jpg">
+      <PackagePath>Resources\Vegetables\Ice-buerg-lettuce.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Jute-plant.jpg">
+      <PackagePath>Resources\Vegetables\Jute-plant.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Kohlrabi.jpg">
+      <PackagePath>Resources\Vegetables\Kohlrabi.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Latus-root.jpg">
+      <PackagePath>Resources\Vegetables\Latus-root.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Lemongrass.jpg">
+      <PackagePath>Resources\Vegetables\Lemongrass.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Mushroon.jpg">
+      <PackagePath>Resources\Vegetables\Mushroon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Okra.jpg">
+      <PackagePath>Resources\Vegetables\Okra.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Perrila-leaf.jpg">
+      <PackagePath>Resources\Vegetables\Perrila-leaf.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Piper-lolot.jpg">
+      <PackagePath>Resources\Vegetables\Piper-lolot.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Potato.jpg">
+      <PackagePath>Resources\Vegetables\Potato.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Quince.jpg">
+      <PackagePath>Resources\Vegetables\Quince.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Red-bean.jpg">
+      <PackagePath>Resources\Vegetables\Red-bean.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Rice.jpg">
+      <PackagePath>Resources\Vegetables\Rice.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Seville-beet.jpg">
+      <PackagePath>Resources\Vegetables\Seville-beet.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Sugarcane.jpg">
+      <PackagePath>Resources\Vegetables\Sugarcane.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Tomato.jpg">
+      <PackagePath>Resources\Vegetables\Tomato.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Vanilla.jpg">
+      <PackagePath>Resources\Vegetables\Vanilla.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Water-morning-glory.jpg">
+      <PackagePath>Resources\Vegetables\Water-morning-glory.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Yam.jpg">
+      <PackagePath>Resources\Vegetables\Yam.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Vegetables\Zucchini.jpg">
+      <PackagePath>Resources\Vegetables\Zucchini.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\All\drmbg.jpg">
+      <PackagePath>Resources\All\drmbg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\aboy.jpg">
+      <PackagePath>Resources\Image\aboy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\afriend.jpg">
+      <PackagePath>Resources\Image\afriend.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\agirl.jpg">
+      <PackagePath>Resources\Image\agirl.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\astudent.jpg">
+      <PackagePath>Resources\Image\astudent.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\ateacher.jpg">
+      <PackagePath>Resources\Image\ateacher.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\boys.jpg">
+      <PackagePath>Resources\Image\boys.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\abrother.jpg">
+      <PackagePath>Resources\Image\abrother.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\brothers.jpg">
+      <PackagePath>Resources\Image\brothers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\dad.jpg">
+      <PackagePath>Resources\Image\dad.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\friends.jpg">
+      <PackagePath>Resources\Image\friends.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\old.jpg">
+      <PackagePath>Resources\Image\old.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\girls.jpg">
+      <PackagePath>Resources\Image\girls.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\mom.jpg">
+      <PackagePath>Resources\Image\mom.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\agrandmother.jpg">
+      <PackagePath>Resources\Image\agrandmother.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\agrandfather.jpg">
+      <PackagePath>Resources\Image\agrandfather.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\aname.jpg">
+      <PackagePath>Resources\Image\aname.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\names.jpg">
+      <PackagePath>Resources\Image\names.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\grandmothers.jpg">
+      <PackagePath>Resources\Image\grandmothers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\grandfathers.jpg">
+      <PackagePath>Resources\Image\grandfathers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\grandparent.jpg">
+      <PackagePath>Resources\Image\grandparent.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\asister.jpg">
+      <PackagePath>Resources\Image\asister.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\sisters.jpg">
+      <PackagePath>Resources\Image\sisters.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\students.jpg">
+      <PackagePath>Resources\Image\students.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Image\teachers.jpg">
+      <PackagePath>Resources\Image\teachers.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\family.jpg">
+      <PackagePath>Resources\Menu\family.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\familyc.jpg">
+      <PackagePath>Resources\Menu\familyc.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\grandparent.jpg">
+      <PackagePath>Resources\Menu\grandparent.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\grandparentc.jpg">
+      <PackagePath>Resources\Menu\grandparentc.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Resources\Menu\peoplec.jpg">
+      <PackagePath>Resources\Menu\peoplec.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Thang Huynh\Downloads\Mobile\New folder %282%29\PhoneApp7\PhoneApp7\Bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

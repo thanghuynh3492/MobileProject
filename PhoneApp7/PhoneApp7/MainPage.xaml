@@ -1,0 +1,103 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp7.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:rma="clr-namespace:RateMyApp.Controls;assembly=RateMyApp"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <phone:Pivot x:Name="PivotUnit" Margin="0" Grid.Row="1" Title="" Background="White" SelectionChanged="PivotUnit_SelectionChanged" SelectedIndex="1">
+            <phone:Pivot.Resources>
+                <DataTemplate x:Key="DataTemplate">
+                    <Grid Width="480" Height="766" Background="White">
+                        <Image HorizontalAlignment="Left" Source="{Binding Image}" Height="400" Margin="46,122,0,0" VerticalAlignment="Top" Width="400" Tap="Image_Tap_1"/>
+                        <TextBlock  HorizontalAlignment="Stretch" Height="85" Margin="85,32,10,0" Text="{Binding TextEng}" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF165913" FontFamily="Comic Sans MS" FontSize="48" FontWeight="Bold" FontStyle="Italic"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="109,527,0,63" Text="{Binding TextVie}" TextWrapping="Wrap" Width="337" Foreground="Black" FontFamily="Comic Sans MS" FontSize="37.333" FontWeight="Bold" FontStyle="Italic"/>
+                        <Image HorizontalAlignment="Left" Height="80" Margin="10,527,0,0" VerticalAlignment="Top" Width="80" Source="/Resources/loa.png" Tap="Image_Tap"/>
+                    </Grid>
+                </DataTemplate>
+            </phone:Pivot.Resources>
+            <phone:Pivot.ItemTemplate>
+                <StaticResource ResourceKey="DataTemplate"/>
+            </phone:Pivot.ItemTemplate>
+        </phone:Pivot>
+        <MediaElement x:Name="MediaUnit" HorizontalAlignment="Left" Height="100" Margin="391,169,-11,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="100" Visibility="Collapsed" AutoPlay="True"/>
+        <Grid x:Name="GridBT" HorizontalAlignment="Left" Height="128" Grid.RowSpan="2" VerticalAlignment="Top" Width="396" Tap="GridBT_Tap" Margin="36,0,0,0" Visibility="Collapsed">
+            <Grid.Background>
+                <ImageBrush Stretch="Fill" ImageSource="/Resources/All/muiten.PNG"/>
+            </Grid.Background>
+            <TextBlock HorizontalAlignment="Left" Height="60" Margin="112,32,0,0" TextWrapping="Wrap" Text="Làm bài tập" VerticalAlignment="Top" Width="250" FontFamily="Comic Sans MS" FontSize="40" RenderTransformOrigin="0.472,0.585"/>
+            <Image HorizontalAlignment="Left" Height="86" Margin="10,10,0,0" VerticalAlignment="Top" Width="97" Source="/Resources/All/but.png" RenderTransformOrigin="0.371,-0.14"/>
+        </Grid>
+
+        
+
+        <!-- LOCALIZATION NOTE:
+            To localize the displayed strings copy their values to appropriately named
+            keys in the app's neutral language resource file (AppResources.resx) then
+            replace the hard-coded text value between the attributes' quotation marks
+            with the binding clause whose path points to that string name.
+
+            For example:
+
+                Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}"
+
+            This binding points to the template's string resource named "ApplicationTitle".
+
+            Adding supported languages in the Project Properties tab will create a
+            new resx file per language that can carry the translated values of your
+            UI strings. The binding in these examples will cause the value of the
+            attributes to be drawn from the .resx file that matches the
+            CurrentUICulture of the app at run time.
+         -->
+
+        <!--TitlePanel contains the name of the application and page title-->
+
+        <!--ContentPanel - place additional content here-->
+
+        <!--Uncomment to see an alignment grid to help ensure your controls are
+            aligned on common boundaries.  The image has a top margin of -32px to
+            account for the System Tray. Set this to 0 (or remove the margin altogether)
+            if the System Tray is hidden.
+
+            Before shipping remove this XAML and the image itself.-->
+        <!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" Grid.RowSpan="2" IsHitTestVisible="False" />-->
+    </Grid>
+
+    <!-- Hiệu ứng chuyển page-->
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:SlideTransition Mode="SlideRightFadeIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:SlideTransition Mode="SlideLeftFadeIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:SlideTransition Mode="SlideRightFadeOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:SlideTransition Mode="SlideLeftFadeOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+</phone:PhoneApplicationPage>

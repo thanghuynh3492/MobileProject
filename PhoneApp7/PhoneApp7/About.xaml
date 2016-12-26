@@ -1,0 +1,37 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="PhoneApp7.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#FFD3CCCC">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Left" Height="63" Margin="10,92,0,0" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="432" Text="Lê Nguyễn Mai Thủy" Foreground="Black" FontFamily="Comic Sans MS" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Height="63" Margin="10,226,0,0" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="432" Text="Lê Trịnh Thế Hải" Foreground="Black" FontFamily="Comic Sans MS" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Height="63" Margin="10,160,0,0" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="432" Text="Huỳnh Lưu Đại Thắng" Foreground="Black" FontFamily="Comic Sans MS" FontSize="24"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="63" Margin="286,92,0,0" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Text="11520651" Foreground="Black" FontFamily="Comic Sans MS" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Height="63" Margin="286,155,0,0" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Text="11520365" Foreground="Black" FontFamily="Comic Sans MS" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Height="63" Margin="286,218,0,0" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Text="11520095" Foreground="Black" FontFamily="Comic Sans MS" FontSize="24"/>
+
+        <!--TitlePanel contains the name of the application and page title-->
+
+        <!--ContentPanel - place additional content here-->
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

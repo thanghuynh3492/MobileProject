@@ -1,0 +1,979 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BD4349DC-81FA-43D2-90A7-404B672F3952}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PhoneApp7</RootNamespace>
+    <AssemblyName>PhoneApp7</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>PhoneApp7_$(Configuration)_$(Platform).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>PhoneApp7.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <DefaultLanguage>en-US</DefaultLanguage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Details.xaml.cs">
+      <DependentUpon>Details.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\EngDBContext.cs" />
+    <Compile Include="FirstPage.xaml.cs">
+      <DependentUpon>FirstPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Introduction.xaml.cs">
+      <DependentUpon>Introduction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IntroStudy.xaml.cs">
+      <DependentUpon>IntroStudy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\LocalizedStrings.cs" />
+    <Compile Include="MainGame.xaml.cs">
+      <DependentUpon>MainGame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPage.xaml.cs">
+      <DependentUpon>MenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataAlphabets.cs" />
+    <Compile Include="Models\DataAnimals.cs" />
+    <Compile Include="Models\DataClothing.cs" />
+    <Compile Include="Models\DataColor.cs" />
+    <Compile Include="Models\DataFruit.cs" />
+    <Compile Include="Models\DataMainPage.cs" />
+    <Compile Include="Models\DataNumber.cs" />
+    <Compile Include="Models\DataVegetables.cs" />
+    <Compile Include="Models\NewItems.cs" />
+    <Compile Include="Models\NewUnitItem.cs" />
+    <Compile Include="Models\PictureGameModel.cs" />
+    <Compile Include="Models\SchoolSupplie.cs" />
+    <Compile Include="Models\VideoModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResultEx.xaml.cs">
+      <DependentUpon>ResultEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Study1.xaml.cs">
+      <DependentUpon>Study1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Study1Items.cs" />
+    <Compile Include="Study2.xaml.cs">
+      <DependentUpon>Study2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Study2Items.cs" />
+    <Compile Include="Study3.xaml.cs">
+      <DependentUpon>Study3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Study3Items.cs" />
+    <Compile Include="Models\UnitItem.cs" />
+    <Compile Include="Topic.xaml.cs">
+      <DependentUpon>Topic.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VocaCompleled.xaml.cs">
+      <DependentUpon>VocaCompleled.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WordGame.xaml.cs">
+      <DependentUpon>WordGame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WordGameHome.xaml.cs">
+      <DependentUpon>WordGameHome.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Details.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FirstPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Introduction.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="IntroStudy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainGame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MenuPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ResultEx.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Study1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Study2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Study3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Topic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VocaCompleled.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WordGame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WordGameHome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\AppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RateMyAppGuide_v1 1.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\ABCD.mp4" />
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\BadgeLogo.png" />
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\question.png" />
+    <Content Include="Assets\sound.png" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\SquareTile150x150.png" />
+    <Content Include="Assets\SquareTile71x71.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\tick.png" />
+    <Content Include="Assets\WideLogo.png" />
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\123.png" />
+    <Content Include="Resources\All\ABC.mp3" />
+    <Content Include="Resources\All\baitap1.mp3" />
+    <Content Include="Resources\alpha.png" />
+    <Content Include="Resources\alphabet.png" />
+    <Content Include="Resources\Alphabets\A.png" />
+    <Content Include="Resources\Alphabets\B.png" />
+    <Content Include="Resources\Alphabets\C.png" />
+    <Content Include="Resources\Alphabets\D.png" />
+    <Content Include="Resources\Alphabets\E.png" />
+    <Content Include="Resources\Alphabets\F.png" />
+    <Content Include="Resources\Alphabets\G.png" />
+    <Content Include="Resources\Alphabets\H.png" />
+    <Content Include="Resources\Alphabets\I.png" />
+    <Content Include="Resources\Alphabets\J.png" />
+    <Content Include="Resources\Alphabets\K.png" />
+    <Content Include="Resources\Alphabets\L.png" />
+    <Content Include="Resources\Alphabets\M.png" />
+    <Content Include="Resources\Alphabets\N.png" />
+    <Content Include="Resources\Alphabets\O.png" />
+    <Content Include="Resources\Alphabets\P.png" />
+    <Content Include="Resources\Alphabets\Q.png" />
+    <Content Include="Resources\Alphabets\R.png" />
+    <Content Include="Resources\Alphabets\S.png" />
+    <Content Include="Resources\Alphabets\T.png" />
+    <Content Include="Resources\Alphabets\U.png" />
+    <Content Include="Resources\Alphabets\V.png" />
+    <Content Include="Resources\Alphabets\W.png" />
+    <Content Include="Resources\Alphabets\X.png" />
+    <Content Include="Resources\Alphabets\Y.png" />
+    <Content Include="Resources\Alphabets\Z.png" />
+    <Content Include="Resources\animal.png" />
+    <Content Include="Resources\Animal\Bear.jpg" />
+    <Content Include="Resources\Animal\Bee.jpg" />
+    <Content Include="Resources\Animal\Buffalo.jpg" />
+    <Content Include="Resources\Animal\Camel.jpg" />
+    <Content Include="Resources\Animal\Cat.jpg" />
+    <Content Include="Resources\Animal\Cheetah.jpg" />
+    <Content Include="Resources\Animal\Cow.jpg" />
+    <Content Include="Resources\Animal\Deer.jpg" />
+    <Content Include="Resources\Animal\Dog.jpg" />
+    <Content Include="Resources\Animal\Dolphin.jpg" />
+    <Content Include="Resources\Animal\Duck.jpg" />
+    <Content Include="Resources\Animal\Duckling.jpg" />
+    <Content Include="Resources\Animal\Eagle.jpg" />
+    <Content Include="Resources\Animal\Elephant.jpg" />
+    <Content Include="Resources\Animal\Fox.jpg" />
+    <Content Include="Resources\Animal\Frog.jpg" />
+    <Content Include="Resources\Animal\Goat.jpg" />
+    <Content Include="Resources\Animal\Goatling.jpg" />
+    <Content Include="Resources\Animal\Hippo.jpg" />
+    <Content Include="Resources\Animal\Horse.jpg" />
+    <Content Include="Resources\Animal\Kitten.jpg" />
+    <Content Include="Resources\Animal\Lion.jpg" />
+    <Content Include="Resources\Animal\Mosquito.jpg" />
+    <Content Include="Resources\Animal\Mouse.jpg" />
+    <Content Include="Resources\Animal\Pig.jpg" />
+    <Content Include="Resources\Animal\Puppy.jpg" />
+    <Content Include="Resources\Animal\Rabbit.jpg" />
+    <Content Include="Resources\Animal\Rhino.jpg" />
+    <Content Include="Resources\Animal\Rooster.jpg" />
+    <Content Include="Resources\Animal\Snake.jpg" />
+    <Content Include="Resources\Animal\Tiger.jpg" />
+    <Content Include="Resources\Animal\Whale.jpg" />
+    <Content Include="Resources\Animal\Wolf.jpg" />
+    <Content Include="Resources\Animal\Zebra.jpg" />
+    <Content Include="Resources\backgroud2.jpg" />
+    <Content Include="Resources\basket-of-vegetables.png" />
+    <Content Include="Resources\clothes1.png" />
+    <Content Include="Resources\clothing.png" />
+    <Content Include="Resources\Clothing\BaseballCap.jpg" />
+    <Content Include="Resources\Clothing\Belt.jpg" />
+    <Content Include="Resources\Clothing\Blouse.jpg" />
+    <Content Include="Resources\Clothing\Boots.jpg" />
+    <Content Include="Resources\Clothing\BowTie.jpg" />
+    <Content Include="Resources\Clothing\Dress.jpg" />
+    <Content Include="Resources\Clothing\Earrings.jpg" />
+    <Content Include="Resources\Clothing\Glasses.jpg" />
+    <Content Include="Resources\Clothing\Gloves.jpg" />
+    <Content Include="Resources\Clothing\HighHeels.jpg" />
+    <Content Include="Resources\Clothing\Jeans.jpg" />
+    <Content Include="Resources\Clothing\LeatherJacket.jpg" />
+    <Content Include="Resources\Clothing\Lipstick.jpg" />
+    <Content Include="Resources\Clothing\Overcoat.jpg" />
+    <Content Include="Resources\Clothing\Pyjamas.jpg" />
+    <Content Include="Resources\Clothing\Raincoat.jpg" />
+    <Content Include="Resources\Clothing\Sandals.jpg" />
+    <Content Include="Resources\Clothing\Scarf.jpg" />
+    <Content Include="Resources\Clothing\Shirt.jpg" />
+    <Content Include="Resources\Clothing\Shorts.jpg" />
+    <Content Include="Resources\Clothing\Skirt.jpg" />
+    <Content Include="Resources\Clothing\Slippers.jpg" />
+    <Content Include="Resources\Clothing\Socks.jpg" />
+    <Content Include="Resources\Clothing\Stockings.jpg" />
+    <Content Include="Resources\Clothing\Sunglasses.jpg" />
+    <Content Include="Resources\Clothing\Sweater.jpg" />
+    <Content Include="Resources\Clothing\SwimmingCostume.jpg" />
+    <Content Include="Resources\Clothing\T-shirt.jpg" />
+    <Content Include="Resources\Clothing\Tie.jpg" />
+    <Content Include="Resources\Clothing\Trainers.jpg" />
+    <Content Include="Resources\Clothing\Trousers.jpg" />
+    <Content Include="Resources\Clothing\Umbrella.jpg" />
+    <Content Include="Resources\Clothing\Watch.jpg" />
+    <Content Include="Resources\Clothing\Wellingtons.jpg" />
+    <Content Include="Resources\color.png" />
+    <Content Include="Resources\color1.jpg" />
+    <Content Include="Resources\color1.png" />
+    <Content Include="Resources\Color\Black.png" />
+    <Content Include="Resources\Color\Blue.png" />
+    <Content Include="Resources\Color\Brown.jpg" />
+    <Content Include="Resources\Color\brown.png" />
+    <Content Include="Resources\Color\DarkBlue.png" />
+    <Content Include="Resources\Color\DarkBrown.png" />
+    <Content Include="Resources\Color\DarkGreen.jpg" />
+    <Content Include="Resources\Color\DarkRed.jpg" />
+    <Content Include="Resources\Color\DarkYellow.jpg" />
+    <Content Include="Resources\Color\Green.png" />
+    <Content Include="Resources\Color\Grey.png" />
+    <Content Include="Resources\Color\LightBlue.jpg" />
+    <Content Include="Resources\Color\LightBrown.png" />
+    <Content Include="Resources\Color\LightGreen1.jpg" />
+    <Content Include="Resources\Color\LightRed.png" />
+    <Content Include="Resources\Color\LightYellow.jpg" />
+    <Content Include="Resources\Color\Orange.png" />
+    <Content Include="Resources\Color\Pink.jpg" />
+    <Content Include="Resources\Color\pink.png" />
+    <Content Include="Resources\Color\puple.png" />
+    <Content Include="Resources\Color\Red.png" />
+    <Content Include="Resources\Color\White.png" />
+    <Content Include="Resources\Color\Yellow.png" />
+    <Content Include="Resources\fruit.png" />
+    <Content Include="Resources\Fruit\Apple.jpg" />
+    <Content Include="Resources\Fruit\Apricot.jpg" />
+    <Content Include="Resources\Fruit\Avocado.jpg" />
+    <Content Include="Resources\Fruit\Banana.jpg" />
+    <Content Include="Resources\Fruit\Cherry.jpg" />
+    <Content Include="Resources\Fruit\Coconut.jpg" />
+    <Content Include="Resources\Fruit\Custard-apple.jpg" />
+    <Content Include="Resources\Fruit\Dragon-fruit.jpg" />
+    <Content Include="Resources\Fruit\Durian.jpg" />
+    <Content Include="Resources\Fruit\Grape.jpg" />
+    <Content Include="Resources\Fruit\Grapefruit.jpg" />
+    <Content Include="Resources\Fruit\Guava.jpg" />
+    <Content Include="Resources\Fruit\Jackfruit.jpg" />
+    <Content Include="Resources\Fruit\Kiwi-fruit.jpg" />
+    <Content Include="Resources\Fruit\Kumquat.jpg" />
+    <Content Include="Resources\Fruit\Lemon.jpg" />
+    <Content Include="Resources\Fruit\Lime.jpg" />
+    <Content Include="Resources\Fruit\Longan.jpg" />
+    <Content Include="Resources\Fruit\Lychee.jpg" />
+    <Content Include="Resources\Fruit\Mandarin.jpg" />
+    <Content Include="Resources\Fruit\Mango.jpg" />
+    <Content Include="Resources\Fruit\Mangosteen.jpg" />
+    <Content Include="Resources\Fruit\Orange.jpg" />
+    <Content Include="Resources\Fruit\Papaya.jpg" />
+    <Content Include="Resources\Fruit\Passion-fruit.jpg" />
+    <Content Include="Resources\Fruit\Peach.jpg" />
+    <Content Include="Resources\Fruit\Persimmon.jpg" />
+    <Content Include="Resources\Fruit\Pineapple.jpg" />
+    <Content Include="Resources\Fruit\Plum.jpg" />
+    <Content Include="Resources\Fruit\Pomegranate.jpg" />
+    <Content Include="Resources\Fruit\Rambutan.jpg" />
+    <Content Include="Resources\Fruit\Sapodilla.jpg" />
+    <Content Include="Resources\Fruit\Soursop.jpg" />
+    <Content Include="Resources\Fruit\Starfruit.jpg" />
+    <Content Include="Resources\Fruit\Strawberry.jpg" />
+    <Content Include="Resources\images.jpg" />
+    <Content Include="Resources\Image\abed.jpg" />
+    <Content Include="Resources\Image\ablanket.jpg" />
+    <Content Include="Resources\Image\achair.jpg" />
+    <Content Include="Resources\Image\adesk.jpg" />
+    <Content Include="Resources\Image\afternoon.jpg" />
+    <Content Include="Resources\Image\apillow.jpg" />
+    <Content Include="Resources\Image\atable.jpg" />
+    <Content Include="Resources\Image\beds.jpg" />
+    <Content Include="Resources\Image\blankets.jpg" />
+    <Content Include="Resources\Image\chairs.jpg" />
+    <Content Include="Resources\Image\desks.jpg" />
+    <Content Include="Resources\Image\evening.jpg" />
+    <Content Include="Resources\Image\midnight.jpg" />
+    <Content Include="Resources\Image\morning.jpg" />
+    <Content Include="Resources\Image\night.jpg" />
+    <Content Include="Resources\Image\noon.jpg" />
+    <Content Include="Resources\Image\pillows.jpg" />
+    <Content Include="Resources\Image\tables.jpg" />
+    <Content Include="Resources\logo.png" />
+    <Content Include="Resources\Menu\backgroud.jpg" />
+    <Content Include="Resources\Menu\background.png" />
+    <Content Include="Resources\Menu\banghe.png" />
+    <Content Include="Resources\Menu\banghec.png" />
+    <Content Include="Resources\Menu\giuong.png" />
+    <Content Include="Resources\Menu\giuongc.png" />
+    <Content Include="Resources\Menu\ngaydem.jpg" />
+    <Content Include="Resources\Menu\ngaydemc.jpg" />
+    <Content Include="Resources\numbers.jpg" />
+    <Content Include="Resources\Number\0.png" />
+    <Content Include="Resources\Number\1.png" />
+    <Content Include="Resources\Number\2.png" />
+    <Content Include="Resources\Number\3.png" />
+    <Content Include="Resources\Number\4.png" />
+    <Content Include="Resources\Number\5.png" />
+    <Content Include="Resources\Number\6.png" />
+    <Content Include="Resources\Number\7.png" />
+    <Content Include="Resources\Number\8.png" />
+    <Content Include="Resources\Number\9.png" />
+    <Content Include="Resources\option.png" />
+    <Content Include="Resources\school.jpg" />
+    <Content Include="Resources\school.png" />
+    <Content Include="Resources\SchoolSupplies\Bag.jpg" />
+    <Content Include="Resources\SchoolSupplies\BallPointPen.jpg" />
+    <Content Include="Resources\SchoolSupplies\Book.jpg" />
+    <Content Include="Resources\SchoolSupplies\Calculator.jpg" />
+    <Content Include="Resources\SchoolSupplies\Chalk.jpg" />
+    <Content Include="Resources\SchoolSupplies\Clip.jpg" />
+    <Content Include="Resources\SchoolSupplies\Compa.jpg" />
+    <Content Include="Resources\SchoolSupplies\Crayon.jpg" />
+    <Content Include="Resources\SchoolSupplies\Eke.jpg" />
+    <Content Include="Resources\SchoolSupplies\Eraser1.jpg" />
+    <Content Include="Resources\SchoolSupplies\EraserPen.jpg" />
+    <Content Include="Resources\SchoolSupplies\Highlighter.jpg" />
+    <Content Include="Resources\SchoolSupplies\Ink.jpg" />
+    <Content Include="Resources\SchoolSupplies\NoteBook.jpg" />
+    <Content Include="Resources\SchoolSupplies\PaperKnife.jpg" />
+    <Content Include="Resources\SchoolSupplies\Pen.jpg" />
+    <Content Include="Resources\SchoolSupplies\PenBox.jpg" />
+    <Content Include="Resources\SchoolSupplies\Pencil.jpg" />
+    <Content Include="Resources\SchoolSupplies\PencilSharpener.jpg" />
+    <Content Include="Resources\SchoolSupplies\PushPin.jpg" />
+    <Content Include="Resources\SchoolSupplies\Ruler.jpg" />
+    <Content Include="Resources\SchoolSupplies\Scissor.jpg" />
+    <Content Include="Resources\SchoolSupplies\Table.jpg" />
+    <Content Include="Resources\Sound\abed.mp3" />
+    <Content Include="Resources\Sound\ablanket.mp3" />
+    <Content Include="Resources\Sound\achair.mp3" />
+    <Content Include="Resources\Sound\adesk.mp3" />
+    <Content Include="Resources\Sound\afriend.mp3" />
+    <Content Include="Resources\Sound\afternoon.mp3" />
+    <Content Include="Resources\Sound\apillow.mp3" />
+    <Content Include="Resources\Sound\astudent.mp3" />
+    <Content Include="Resources\Sound\atable.mp3" />
+    <Content Include="Resources\Sound\ateacher.mp3" />
+    <Content Include="Resources\Sound\banbe.mp3" />
+    <Content Include="Resources\Sound\beds.mp3" />
+    <Content Include="Resources\Sound\blankets.mp3" />
+    <Content Include="Resources\Sound\buoichieu.mp3" />
+    <Content Include="Resources\Sound\buoichieutoi.mp3" />
+    <Content Include="Resources\Sound\buoisang.mp3" />
+    <Content Include="Resources\Sound\buoitoi.mp3" />
+    <Content Include="Resources\Sound\buoitrua.mp3" />
+    <Content Include="Resources\Sound\chairs.mp3" />
+    <Content Include="Resources\Sound\desks.mp3" />
+    <Content Include="Resources\Sound\evening.mp3" />
+    <Content Include="Resources\Sound\friends.mp3" />
+    <Content Include="Resources\Sound\midnight.mp3" />
+    <Content Include="Resources\Sound\morning.mp3" />
+    <Content Include="Resources\Sound\motcaiban.mp3" />
+    <Content Include="Resources\Sound\motcaibancongan.mp3" />
+    <Content Include="Resources\Sound\motcaichan.mp3" />
+    <Content Include="Resources\Sound\motcaighe.mp3" />
+    <Content Include="Resources\Sound\motcaigiuong.mp3" />
+    <Content Include="Resources\Sound\motcaigoi.mp3" />
+    <Content Include="Resources\Sound\motgiaovien.mp3" />
+    <Content Include="Resources\Sound\mothocsinh.mp3" />
+    <Content Include="Resources\Sound\nhieucaiban.mp3" />
+    <Content Include="Resources\Sound\nhieucaibancongan.mp3" />
+    <Content Include="Resources\Sound\nhieucaichan.mp3" />
+    <Content Include="Resources\Sound\nhieucaighe.mp3" />
+    <Content Include="Resources\Sound\nhieucaigiuong.mp3" />
+    <Content Include="Resources\Sound\nhieucaigoi.mp3" />
+    <Content Include="Resources\Sound\night.mp3" />
+    <Content Include="Resources\Sound\noon.mp3" />
+    <Content Include="Resources\Sound\nuadem.mp3" />
+    <Content Include="Resources\Sound\pillows.mp3" />
+    <Content Include="Resources\Sound\students.mp3" />
+    <Content Include="Resources\Sound\tables.mp3" />
+    <Content Include="Resources\Sound\teachers.mp3" />
+    <Content Include="Resources\start.png" />
+    <Content Include="Resources\sunshinekidssun.jpg" />
+    <Content Include="Resources\TranslateAnimal\Bear.mp3" />
+    <Content Include="Resources\TranslateAnimal\Bee.mp3" />
+    <Content Include="Resources\TranslateAnimal\Beetle.mp3" />
+    <Content Include="Resources\TranslateAnimal\Buffalo.mp3" />
+    <Content Include="Resources\TranslateAnimal\Butterfly.mp3" />
+    <Content Include="Resources\TranslateAnimal\Camel.mp3" />
+    <Content Include="Resources\TranslateAnimal\Cat.mp3" />
+    <Content Include="Resources\TranslateAnimal\Cheetah.mp3" />
+    <Content Include="Resources\TranslateAnimal\Cow.mp3" />
+    <Content Include="Resources\TranslateAnimal\Deer.mp3" />
+    <Content Include="Resources\TranslateAnimal\Dog.mp3" />
+    <Content Include="Resources\TranslateAnimal\Dolphin.mp3" />
+    <Content Include="Resources\TranslateAnimal\Donkey.mp3" />
+    <Content Include="Resources\TranslateAnimal\Dragonfly.mp3" />
+    <Content Include="Resources\TranslateAnimal\Duck.mp3" />
+    <Content Include="Resources\TranslateAnimal\Duckling.mp3" />
+    <Content Include="Resources\TranslateAnimal\Dung_beetle.mp3" />
+    <Content Include="Resources\TranslateAnimal\Eagle.mp3" />
+    <Content Include="Resources\TranslateAnimal\Elephant.mp3" />
+    <Content Include="Resources\TranslateAnimal\Firefly.mp3" />
+    <Content Include="Resources\TranslateAnimal\Fox.mp3" />
+    <Content Include="Resources\TranslateAnimal\Frog.mp3" />
+    <Content Include="Resources\TranslateAnimal\Giraffe.mp3" />
+    <Content Include="Resources\TranslateAnimal\Goat.mp3" />
+    <Content Include="Resources\TranslateAnimal\Goatling.mp3" />
+    <Content Include="Resources\TranslateAnimal\Hippo.mp3" />
+    <Content Include="Resources\TranslateAnimal\Horse.mp3" />
+    <Content Include="Resources\TranslateAnimal\Kangaroo.mp3" />
+    <Content Include="Resources\TranslateAnimal\Kitten.mp3" />
+    <Content Include="Resources\TranslateAnimal\Ladybug.mp3" />
+    <Content Include="Resources\TranslateAnimal\Lion.mp3" />
+    <Content Include="Resources\TranslateAnimal\Monkey.mp3" />
+    <Content Include="Resources\TranslateAnimal\Mosquito.mp3" />
+    <Content Include="Resources\TranslateAnimal\Mouse.mp3" />
+    <Content Include="Resources\TranslateAnimal\Penguin.mp3" />
+    <Content Include="Resources\TranslateAnimal\Pig.mp3" />
+    <Content Include="Resources\TranslateAnimal\Puppy.mp3" />
+    <Content Include="Resources\TranslateAnimal\Rabbit.mp3" />
+    <Content Include="Resources\TranslateAnimal\Rhino.mp3" />
+    <Content Include="Resources\TranslateAnimal\Rooster.mp3" />
+    <Content Include="Resources\TranslateAnimal\Sharks.mp3" />
+    <Content Include="Resources\TranslateAnimal\Snake.mp3" />
+    <Content Include="Resources\TranslateAnimal\Tiger.mp3" />
+    <Content Include="Resources\TranslateAnimal\Whale.mp3" />
+    <Content Include="Resources\TranslateAnimal\Wolf.mp3" />
+    <Content Include="Resources\TranslateAnimal\Zebra.mp3" />
+    <Content Include="Resources\TranslateClothing\BaseballCap.mp3" />
+    <Content Include="Resources\TranslateClothing\Belt.mp3" />
+    <Content Include="Resources\TranslateClothing\Blouse.mp3" />
+    <Content Include="Resources\TranslateClothing\Boots.mp3" />
+    <Content Include="Resources\TranslateClothing\BowTie.mp3" />
+    <Content Include="Resources\TranslateClothing\Dress.mp3" />
+    <Content Include="Resources\TranslateClothing\Earrings.mp3" />
+    <Content Include="Resources\TranslateClothing\Glasses.mp3" />
+    <Content Include="Resources\TranslateClothing\Gloves.mp3" />
+    <Content Include="Resources\TranslateClothing\HighHeels.mp3" />
+    <Content Include="Resources\TranslateClothing\Jeans.mp3" />
+    <Content Include="Resources\TranslateClothing\LeatherJacket.mp3" />
+    <Content Include="Resources\TranslateClothing\Lipstick.mp3" />
+    <Content Include="Resources\TranslateClothing\Overcoat.mp3" />
+    <Content Include="Resources\TranslateClothing\Pyjamas.mp3" />
+    <Content Include="Resources\TranslateClothing\Raincoat.mp3" />
+    <Content Include="Resources\TranslateClothing\Sandals.mp3" />
+    <Content Include="Resources\TranslateClothing\Scarf.mp3" />
+    <Content Include="Resources\TranslateClothing\Shirt.mp3" />
+    <Content Include="Resources\TranslateClothing\Shorts.mp3" />
+    <Content Include="Resources\TranslateClothing\Skirt.mp3" />
+    <Content Include="Resources\TranslateClothing\Slippers.mp3" />
+    <Content Include="Resources\TranslateClothing\Socks.mp3" />
+    <Content Include="Resources\TranslateClothing\Stockings.mp3" />
+    <Content Include="Resources\TranslateClothing\Sunglasses.mp3" />
+    <Content Include="Resources\TranslateClothing\Sweater.mp3" />
+    <Content Include="Resources\TranslateClothing\SwimmingCostume.mp3" />
+    <Content Include="Resources\TranslateClothing\T-shirt.mp3" />
+    <Content Include="Resources\TranslateClothing\Tie.mp3" />
+    <Content Include="Resources\TranslateClothing\Trainers.mp3" />
+    <Content Include="Resources\TranslateClothing\Trousers.mp3" />
+    <Content Include="Resources\TranslateClothing\Umbrella.mp3" />
+    <Content Include="Resources\TranslateClothing\Watch.mp3" />
+    <Content Include="Resources\TranslateClothing\Wellingtons.mp3" />
+    <Content Include="Resources\TranslateColor\Black.mp3" />
+    <Content Include="Resources\TranslateColor\Blue.mp3" />
+    <Content Include="Resources\TranslateColor\Brown.mp3" />
+    <Content Include="Resources\TranslateColor\DarkBlue.mp3" />
+    <Content Include="Resources\TranslateColor\DarkBrown.mp3" />
+    <Content Include="Resources\TranslateColor\DarkGreen.mp3" />
+    <Content Include="Resources\TranslateColor\DarkRed.mp3" />
+    <Content Include="Resources\TranslateColor\DarkYellow.mp3" />
+    <Content Include="Resources\TranslateColor\Green.mp3" />
+    <Content Include="Resources\TranslateColor\Grey.mp3" />
+    <Content Include="Resources\TranslateColor\LightBlue.mp3" />
+    <Content Include="Resources\TranslateColor\LightBrown.mp3" />
+    <Content Include="Resources\TranslateColor\LightGreen1.mp3" />
+    <Content Include="Resources\TranslateColor\LightRed.mp3" />
+    <Content Include="Resources\TranslateColor\LightYellow.mp3" />
+    <Content Include="Resources\TranslateColor\Orange.mp3" />
+    <Content Include="Resources\TranslateColor\Pink.mp3" />
+    <Content Include="Resources\TranslateColor\Purple.mp3" />
+    <Content Include="Resources\TranslateColor\Red.mp3" />
+    <Content Include="Resources\TranslateColor\White.mp3" />
+    <Content Include="Resources\TranslateColor\Yellow.mp3" />
+    <Content Include="Resources\TranslateFruit\Apple.mp3" />
+    <Content Include="Resources\TranslateFruit\Apricot.mp3" />
+    <Content Include="Resources\TranslateFruit\Avocado.mp3" />
+    <Content Include="Resources\TranslateFruit\Banana.mp3" />
+    <Content Include="Resources\TranslateFruit\Cherry.mp3" />
+    <Content Include="Resources\TranslateFruit\Coconut.mp3" />
+    <Content Include="Resources\TranslateFruit\Custard-apple.mp3" />
+    <Content Include="Resources\TranslateFruit\Dragon-fruit.mp3" />
+    <Content Include="Resources\TranslateFruit\Durian.mp3" />
+    <Content Include="Resources\TranslateFruit\Grape.mp3" />
+    <Content Include="Resources\TranslateFruit\Grapefruit.mp3" />
+    <Content Include="Resources\TranslateFruit\Guava.mp3" />
+    <Content Include="Resources\TranslateFruit\Jackfruit.mp3" />
+    <Content Include="Resources\TranslateFruit\Kiwi-fruit.mp3" />
+    <Content Include="Resources\TranslateFruit\Kumquat.mp3" />
+    <Content Include="Resources\TranslateFruit\Lemon.mp3" />
+    <Content Include="Resources\TranslateFruit\Lime.mp3" />
+    <Content Include="Resources\TranslateFruit\Longan.mp3" />
+    <Content Include="Resources\TranslateFruit\Lychee.mp3" />
+    <Content Include="Resources\TranslateFruit\Mandarin.mp3" />
+    <Content Include="Resources\TranslateFruit\Mango.mp3" />
+    <Content Include="Resources\TranslateFruit\Mangosteen.mp3" />
+    <Content Include="Resources\TranslateFruit\Orange.mp3" />
+    <Content Include="Resources\TranslateFruit\Papaya.mp3" />
+    <Content Include="Resources\TranslateFruit\Passion-fruit.mp3" />
+    <Content Include="Resources\TranslateFruit\Peach.mp3" />
+    <Content Include="Resources\TranslateFruit\Persimmon.mp3" />
+    <Content Include="Resources\TranslateFruit\Pineapple.mp3" />
+    <Content Include="Resources\TranslateFruit\Plum.mp3" />
+    <Content Include="Resources\TranslateFruit\Pomegranate.mp3" />
+    <Content Include="Resources\TranslateFruit\Rambutan.mp3" />
+    <Content Include="Resources\TranslateFruit\Sapodilla.mp3" />
+    <Content Include="Resources\TranslateFruit\Soursop.mp3" />
+    <Content Include="Resources\TranslateFruit\Starfruit.mp3" />
+    <Content Include="Resources\TranslateFruit\Strawberry.mp3" />
+    <Content Include="Resources\TranslateFruit\Watermelon.mp3" />
+    <Content Include="Resources\TranslatenNumber\0.mp3" />
+    <Content Include="Resources\TranslatenNumber\1.mp3" />
+    <Content Include="Resources\TranslatenNumber\2.mp3" />
+    <Content Include="Resources\TranslatenNumber\3.mp3" />
+    <Content Include="Resources\TranslatenNumber\4.mp3" />
+    <Content Include="Resources\TranslatenNumber\5.mp3" />
+    <Content Include="Resources\TranslatenNumber\6.mp3" />
+    <Content Include="Resources\TranslatenNumber\7.mp3" />
+    <Content Include="Resources\TranslatenNumber\8.mp3" />
+    <Content Include="Resources\TranslatenNumber\9.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Bag.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\BallPointPen.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Book.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Calculator.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Chalk.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Clip.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Compa.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Crayon.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Eke.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Eraser1.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\EraserPen.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Highlighter.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Ink.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\NoteBook.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\PaperKnife.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Pen.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\PenBox.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Pencil.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\PencilSharpener.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\PushPin.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Ruler.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Scissor.mp3" />
+    <Content Include="Resources\TranslateSchoolSupplies\Table.mp3" />
+    <Content Include="Resources\TranslateVegetables\Aroma.mp3" />
+    <Content Include="Resources\TranslateVegetables\Asparagus-Bean.mp3" />
+    <Content Include="Resources\TranslateVegetables\Asparagus.mp3" />
+    <Content Include="Resources\TranslateVegetables\Bambo-Shoot.mp3" />
+    <Content Include="Resources\TranslateVegetables\Barley.mp3" />
+    <Content Include="Resources\TranslateVegetables\Bell-pepper.mp3" />
+    <Content Include="Resources\TranslateVegetables\Bok-choy.mp3" />
+    <Content Include="Resources\TranslateVegetables\Broccoli.mp3" />
+    <Content Include="Resources\TranslateVegetables\Cabbage.mp3" />
+    <Content Include="Resources\TranslateVegetables\Carrot.mp3" />
+    <Content Include="Resources\TranslateVegetables\Cauliflower.mp3" />
+    <Content Include="Resources\TranslateVegetables\Celery.mp3" />
+    <Content Include="Resources\TranslateVegetables\Corn.mp3" />
+    <Content Include="Resources\TranslateVegetables\Dill.mp3" />
+    <Content Include="Resources\TranslateVegetables\Edible-luffa.mp3" />
+    <Content Include="Resources\TranslateVegetables\Eggplant.mp3" />
+    <Content Include="Resources\TranslateVegetables\Fish-mint.mp3" />
+    <Content Include="Resources\TranslateVegetables\Fuzzy-squash.mp3" />
+    <Content Include="Resources\TranslateVegetables\Gai-lan.mp3" />
+    <Content Include="Resources\TranslateVegetables\Gai_choy.mp3" />
+    <Content Include="Resources\TranslateVegetables\Ginger.mp3" />
+    <Content Include="Resources\TranslateVegetables\Heleocharis.mp3" />
+    <Content Include="Resources\TranslateVegetables\Ice-buerg-lettuce.mp3" />
+    <Content Include="Resources\TranslateVegetables\Jute-plant.mp3" />
+    <Content Include="Resources\TranslateVegetables\Kohlrabi.mp3" />
+    <Content Include="Resources\TranslateVegetables\Latus-root.mp3" />
+    <Content Include="Resources\TranslateVegetables\Lemongrass.mp3" />
+    <Content Include="Resources\TranslateVegetables\Mushroon.mp3" />
+    <Content Include="Resources\TranslateVegetables\Okra.mp3" />
+    <Content Include="Resources\TranslateVegetables\Perrila-leaf.mp3" />
+    <Content Include="Resources\TranslateVegetables\Piper-lolot.mp3" />
+    <Content Include="Resources\TranslateVegetables\Potato.mp3" />
+    <Content Include="Resources\TranslateVegetables\Quince.mp3" />
+    <Content Include="Resources\TranslateVegetables\Red-bean.mp3" />
+    <Content Include="Resources\TranslateVegetables\Rice.mp3" />
+    <Content Include="Resources\TranslateVegetables\Seville-beet.mp3" />
+    <Content Include="Resources\TranslateVegetables\Sugarcane.mp3" />
+    <Content Include="Resources\TranslateVegetables\Tomato.mp3" />
+    <Content Include="Resources\TranslateVegetables\Vanilla.mp3" />
+    <Content Include="Resources\TranslateVegetables\Water-morning-glory.mp3" />
+    <Content Include="Resources\TranslateVegetables\Yam.mp3" />
+    <Content Include="Resources\TranslateVegetables\Zucchini.mp3" />
+    <Content Include="Resources\Translate\A.mp3" />
+    <Content Include="Resources\Translate\B.mp3" />
+    <Content Include="Resources\Translate\C.mp3" />
+    <Content Include="Resources\Translate\D.mp3" />
+    <Content Include="Resources\Translate\E.mp3" />
+    <Content Include="Resources\Translate\F.mp3" />
+    <Content Include="Resources\Translate\G.mp3" />
+    <Content Include="Resources\Translate\H.mp3" />
+    <Content Include="Resources\Translate\I.mp3" />
+    <Content Include="Resources\Translate\J.mp3" />
+    <Content Include="Resources\Translate\K.mp3" />
+    <Content Include="Resources\Translate\L.mp3" />
+    <Content Include="Resources\Translate\M.mp3" />
+    <Content Include="Resources\Translate\N.mp3" />
+    <Content Include="Resources\Translate\O.mp3" />
+    <Content Include="Resources\Translate\P.mp3" />
+    <Content Include="Resources\Translate\Q.mp3" />
+    <Content Include="Resources\Translate\R.mp3" />
+    <Content Include="Resources\Translate\S.mp3" />
+    <Content Include="Resources\Translate\T.mp3" />
+    <Content Include="Resources\Translate\U.mp3" />
+    <Content Include="Resources\Translate\V.mp3" />
+    <Content Include="Resources\Translate\W.mp3" />
+    <Content Include="Resources\Translate\X.mp3" />
+    <Content Include="Resources\Translate\Y.mp3" />
+    <Content Include="Resources\Translate\Z.mp3" />
+    <Content Include="Resources\trái cây.png" />
+    <Content Include="Resources\veget.png" />
+    <Content Include="Resources\vegetables.png" />
+    <Content Include="Resources\Vegetables\Aroma.jpg" />
+    <Content Include="Resources\Vegetables\Asparagus-Bean.jpg" />
+    <Content Include="Resources\Vegetables\Asparagus.jpg" />
+    <Content Include="Resources\Vegetables\Bambo-Shoot.jpg" />
+    <Content Include="Resources\Vegetables\Barley.jpg" />
+    <Content Include="Resources\Vegetables\Bell-pepper.jpg" />
+    <Content Include="Resources\Vegetables\Bok-choy.jpg" />
+    <Content Include="Resources\Vegetables\Broccoli.jpg" />
+    <Content Include="Resources\Vegetables\Cabbage.jpg" />
+    <Content Include="Resources\Vegetables\Carrot.jpg" />
+    <Content Include="Resources\Vegetables\Cauliflower.jpg" />
+    <Content Include="Resources\Vegetables\Celery.jpg" />
+    <Content Include="Resources\Vegetables\Corn.jpg" />
+    <Content Include="Resources\Vegetables\Dill.jpg" />
+    <Content Include="Resources\Vegetables\Edible-luffa.jpg" />
+    <Content Include="Resources\Vegetables\Eggplant.jpg" />
+    <Content Include="Resources\Vegetables\Fish-mint.jpg" />
+    <Content Include="Resources\Vegetables\Fuzzy-squash.jpg" />
+    <Content Include="Resources\Vegetables\Gai-lan.jpg" />
+    <Content Include="Resources\Vegetables\Gai_choy.jpg" />
+    <Content Include="Resources\Vegetables\Ginger.jpg" />
+    <Content Include="Resources\Vegetables\Heleocharis.jpg" />
+    <Content Include="Resources\Vegetables\Ice-buerg-lettuce.jpg" />
+    <Content Include="Resources\Vegetables\Jute-plant.jpg" />
+    <Content Include="Resources\Vegetables\Kohlrabi.jpg" />
+    <Content Include="Resources\Vegetables\Latus-root.jpg" />
+    <Content Include="Resources\Vegetables\Lemongrass.jpg" />
+    <Content Include="Resources\Vegetables\Mushroon.jpg" />
+    <Content Include="Resources\Vegetables\Okra.jpg" />
+    <Content Include="Resources\Vegetables\Perrila-leaf.jpg" />
+    <Content Include="Resources\Vegetables\Piper-lolot.jpg" />
+    <Content Include="Resources\Vegetables\Potato.jpg" />
+    <Content Include="Resources\Vegetables\Quince.jpg" />
+    <Content Include="Resources\Vegetables\Red-bean.jpg" />
+    <Content Include="Resources\Vegetables\Rice.jpg" />
+    <Content Include="Resources\Vegetables\Seville-beet.jpg" />
+    <Content Include="Resources\Vegetables\Sugarcane.jpg" />
+    <Content Include="Resources\Vegetables\Tomato.jpg" />
+    <Content Include="Resources\Vegetables\Vanilla.jpg" />
+    <Content Include="Resources\Vegetables\Water-morning-glory.jpg" />
+    <Content Include="Resources\Vegetables\Yam.jpg" />
+    <Content Include="Resources\Vegetables\Zucchini.jpg" />
+    <Content Include="Square150x150Logo.scale-140.png" />
+    <Content Include="Square44x44Logo.scale-240.png" />
+    <Content Include="Square71x71Logo.scale-140.png" />
+    <EmbeddedResource Include="EngDB.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="Resources\All\baitap.mp3" />
+    <Content Include="Resources\All\bt2.mp3" />
+    <Content Include="Resources\All\but.png" />
+    <Content Include="Resources\All\child-failed.png" />
+    <Content Include="Resources\All\Doraemon.png" />
+    <Content Include="Resources\All\drmbg.jpg" />
+    <Content Include="Resources\All\Exactly.mp3" />
+    <Content Include="Resources\All\false.png" />
+    <Content Include="Resources\All\HTBT1.mp3" />
+    <Content Include="Resources\All\HTBT2.mp3" />
+    <Content Include="Resources\All\HTBT3.mp3" />
+    <Content Include="Resources\All\HTUnit.mp3" />
+    <Content Include="Resources\All\intro1.mp3" />
+    <Content Include="Resources\All\intro2.mp3" />
+    <Content Include="Resources\All\introBT3.mp3" />
+    <Content Include="Resources\All\KHTBT1.mp3" />
+    <Content Include="Resources\All\KHTBT2.mp3" />
+    <Content Include="Resources\All\KHTBT3.mp3" />
+    <Content Include="Resources\All\logo.png" />
+    <Content Include="Resources\All\meo1.png" />
+    <Content Include="Resources\All\muiten.PNG" />
+    <Content Include="Resources\All\repeat.png" />
+    <Content Include="Resources\All\sorry.mp3" />
+    <Content Include="Resources\All\speaker.png" />
+    <Content Include="Resources\All\True.png" />
+    <Content Include="Resources\Image\aboy.jpg" />
+    <Content Include="Resources\Image\afriend.jpg" />
+    <Content Include="Resources\Image\agirl.jpg" />
+    <Content Include="Resources\Image\astudent.jpg" />
+    <Content Include="Resources\Image\ateacher.jpg" />
+    <Content Include="Resources\Image\boys.jpg" />
+    <Content Include="Resources\Image\abrother.jpg" />
+    <Content Include="Resources\Image\brothers.jpg" />
+    <Content Include="Resources\All\Completed.png" />
+    <Content Include="Resources\Image\dad.jpg" />
+    <Content Include="Resources\Image\friends.jpg" />
+    <Content Include="Resources\Image\old.jpg" />
+    <Content Include="Resources\Image\girls.jpg" />
+    <Content Include="Resources\Image\mom.jpg" />
+    <Content Include="Resources\Image\agrandmother.jpg" />
+    <Content Include="Resources\Image\agrandfather.jpg" />
+    <Content Include="Resources\Image\aname.jpg" />
+    <Content Include="Resources\Image\names.jpg" />
+    <Content Include="Resources\Image\grandmothers.jpg" />
+    <Content Include="Resources\Image\grandfathers.jpg" />
+    <Content Include="Resources\Image\grandparent.jpg" />
+    <Content Include="Resources\Image\asister.jpg" />
+    <Content Include="Resources\Image\sisters.jpg" />
+    <Content Include="Resources\Image\students.jpg" />
+    <Content Include="Resources\Image\teachers.jpg" />
+    <Content Include="Resources\loa.png" />
+    <Content Include="Resources\Menu\family.jpg" />
+    <Content Include="Resources\Menu\familyc.jpg" />
+    <Content Include="Resources\Menu\grandparent.jpg" />
+    <Content Include="Resources\Menu\grandparentc.jpg" />
+    <Content Include="Resources\Menu\people.png" />
+    <Content Include="Resources\Menu\peoplec.jpg" />
+    <Content Include="Resources\Menu\school.png" />
+    <Content Include="Resources\Menu\schoolc.png" />
+    <Content Include="Resources\Sound\aboy.mp3" />
+    <Content Include="Resources\Sound\agirl.mp3" />
+    <Content Include="Resources\Sound\agrandfather.mp3" />
+    <Content Include="Resources\Sound\agrandmother.mp3" />
+    <Content Include="Resources\Sound\aname.mp3" />
+    <Content Include="Resources\Sound\anh.mp3" />
+    <Content Include="Resources\Sound\ba.mp3" />
+    <Content Include="Resources\Sound\boys.mp3" />
+    <Content Include="Resources\Sound\abrother.mp3" />
+    <Content Include="Resources\Sound\brothers.mp3" />
+    <Content Include="Resources\Sound\chi.mp3" />
+    <Content Include="Resources\Sound\dad.mp3" />
+    <Content Include="Resources\Sound\giacu.mp3" />
+    <Content Include="Resources\Sound\girls.mp3" />
+    <Content Include="Resources\Sound\grandfathers.mp3" />
+    <Content Include="Resources\Sound\grandmothers.mp3" />
+    <Content Include="Resources\Sound\grandparent.mp3" />
+    <Content Include="Resources\Sound\me.mp3" />
+    <Content Include="Resources\Sound\mom.mp3" />
+    <Content Include="Resources\Sound\motcaiten.mp3" />
+    <Content Include="Resources\Sound\motcaube.mp3" />
+    <Content Include="Resources\Sound\motcobe.mp3" />
+    <Content Include="Resources\Sound\motnguoiba.mp3" />
+    <Content Include="Resources\Sound\motnguoiban.mp3" />
+    <Content Include="Resources\Sound\motnguoiong.mp3" />
+    <Content Include="Resources\Sound\names.mp3" />
+    <Content Include="Resources\Sound\nhieuanh.mp3" />
+    <Content Include="Resources\Sound\nhieucaiten.mp3" />
+    <Content Include="Resources\Sound\nhieucaube.mp3" />
+    <Content Include="Resources\Sound\nhieuchi.mp3" />
+    <Content Include="Resources\Sound\nhieucobe.mp3" />
+    <Content Include="Resources\Sound\nhieugiaovien.mp3" />
+    <Content Include="Resources\Sound\nhieuhocsinh.mp3" />
+    <Content Include="Resources\Sound\nhieunguoiba.mp3" />
+    <Content Include="Resources\Sound\nhieunguoiong.mp3" />
+    <Content Include="Resources\Sound\old.mp3" />
+    <Content Include="Resources\Sound\ongba.mp3" />
+    <Content Include="Resources\Sound\asister.mp3" />
+    <Content Include="Resources\Sound\sisters.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone.Controls.Toolkit">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.0\Toolkit\Nov10\Bin\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="RateMyApp">
+      <HintPath>..\packages\RateMyApp.1.1.0\lib\sl4-wp71\RateMyApp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>
